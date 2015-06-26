@@ -1,0 +1,55 @@
+---
+layout: index
+---
+
+<div class="presentation">
+	<div class="wrapper">
+		<h1>Pedro Marins</h1>
+		<p>{{ site.description }}</p>
+		<a class="post-link" href="{{ site.baseurl }}/about">Saiba mais sobre mim...</a>
+	</div>
+</div>
+
+<div class="wrapper content">
+	<div class="post-headlines">
+		<h1 class="box-heading">Blog</h1>
+		<p class="box-description">Some <span>technical</span> content, <span>entrepreneurship</span> stories and other <span>random stuff</span> powered by <a class="blog-link" href=""><span class="blog-link-span" data-title="beerblogging">beerblogging</span></a></p>
+		
+		<ul class="post-list">
+			{% for post in site.posts %}
+			<li>
+				<span class="post-meta">{{ post.date | date: "%-d/%m/%Y" }}</span>
+				<h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+			</li>
+			{% endfor %}
+		</ul>
+
+		<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+	</div>
+
+	<div class="events">
+		<h1 class="box-heading">Events</h1>
+		<p class="box-description">List of events that I <span>created</span>, <span>organized</span>, <span>curated</span> or <span>helped</span> in some way</p>
+
+		<div class="events-list">
+			<figure class="event">
+				<a href="">
+					<img class="event-img" src="" alt="">
+					<figcaption class="event-title">Front in Rio</figcaption>
+				</a>
+			</figure>
+			<figure class="event">
+				<a href="">
+					<img class="event-img" src="" alt="">
+					<figcaption class="event-title">Rio.JS Conference</figcaption>
+				</a>
+			</figure>
+			<figure class="event">
+				<a href="">
+					<img class="event-img" src="" alt="">
+					<figcaption class="event-title">Open Space Rio</figcaption>
+				</a>
+			</figure>
+		</div>
+	</div>
+</div>

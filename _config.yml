@@ -1,0 +1,17 @@
+# Site settings
+title: Pedro Marins
+email: contato@pedromarins.com
+description: > # this means to ignore newlines until "baseurl:"
+  front-end developer and events organizer with a passion for teaching and startups
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://pedromarins.com" # the base hostname & protocol for your site
+twitter_username: pedromarins
+github_username:  pedromarins
+
+# Build settings
+markdown: kramdown
+
+
+
+
+
