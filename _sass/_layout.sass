@@ -106,6 +106,7 @@ a
         top: 5px
         right: -9px
         z-index: 20
+        transition: 0.8s
     &:after
         content: ""
         position: absolute
@@ -114,8 +115,12 @@ a
         background-color: $dark-blue
         top: 13px
         right: 0
+    h3
+        margin: 0.6em 0
     time
-        font-size: 0.83em
+        font-size: 0.75em
+    p
+        font-size: 0.9em
     a
         border-color: $dark-blue
         color: $dark-blue
@@ -129,6 +134,8 @@ a
         &:after
             left: 0
             right: auto
+    &:hover:before
+        transform: scale(1.6)
 
 
 // mobile ------------------------------------------------------------------------------------

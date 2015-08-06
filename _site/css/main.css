@@ -103,7 +103,8 @@ a {
     position: absolute;
     top: 5px;
     right: -9px;
-    z-index: 20; }
+    z-index: 20;
+    transition: 0.8s; }
   .timeline-item:after {
     content: "";
     position: absolute;
@@ -112,8 +113,12 @@ a {
     background-color: #324150;
     top: 13px;
     right: 0; }
+  .timeline-item h3 {
+    margin: 0.6em 0; }
   .timeline-item time {
-    font-size: 0.83em; }
+    font-size: 0.75em; }
+  .timeline-item p {
+    font-size: 0.9em; }
   .timeline-item a {
     border-color: #324150;
     color: #324150; }
@@ -127,6 +132,8 @@ a {
     .timeline-item:nth-child(2n):after {
       left: 0;
       right: auto; }
+  .timeline-item:hover:before {
+    transform: scale(1.6); }
 
 @media (max-width: 960px) {
   .presentation {
