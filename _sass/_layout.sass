@@ -1,15 +1,44 @@
-$blue: #00AFC4
-$white: #FCFCFC
-$gray: #F4F2EA 
-$black: #121212
-$gray-text: #A9A8A8
+*
+    -moz-box-sizing: border-box
+    box-sizing: border-box
 
 body
     font-family: 'Open Sans', sans-serif
     background: $gray
+    border-top: 5px solid $red
+    margin: 0
+
+li
+    list-style: none
+
+a
+    border-bottom: 1px solid $black
+    text-decoration: none
+    display: inline-block
+    line-height: 0.95
+
+.wrapper
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2))
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2))
+    margin-right: auto
+    margin-left: auto
+    padding-right: $spacing-unit
+    padding-left: $spacing-unit
+
+    @include media-query($on-laptop)
+        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}))
+        max-width:         calc(#{$content-width} - (#{$spacing-unit}))
+        padding-right: $spacing-unit / 2
+        padding-left: $spacing-unit / 2
+
+.content
+    margin-top: -$spacing-unit*8
+    background: $white
+    padding: $spacing-unit*2
+    box-shadow: 0px 0px 5px rgba(0,0,0,.3)
 
 .presentation
-    background: $blue
+    background: $dark-blue
     padding: $spacing-unit*2 0 $spacing-unit*10
     color: $white
     text-align: center
@@ -18,215 +47,100 @@ body
         font-weight: 700
         text-transform: uppercase
         line-height: 1.7
+        margin: 0
     p
         font-size: 2em
         text-transform: uppercase
-        display: inline-block
-    
-
-.content
-    margin-top: -$spacing-unit*8
-    background: $white
-    padding: $spacing-unit*2
-    -moz-box-sizing: border-box
-        box-sizing: border-box
-    box-shadow: 0px 0px 5px rgba(0,0,0,.3)
-
+    a
+        color: $blue
+        border-color: $blue
+        font-size: 0.9em
 
 .box-heading
     font-size: 1.8em
     font-weight: 600
     text-transform: uppercase
 
-/**
- * Site header
- */
-.site-header
-    border-top: 5px solid $grey-color-dark
-    border-bottom: 1px solid $grey-color-light
-    min-height: 56px
+// timeline ------------------------------------------------------------------------------------
 
-    // Positioning context for the mobile navigation icon
+.timelime-content
     position: relative
-
-.site-title
-    font-size: 26px
-    line-height: 56px
-    letter-spacing: -1px
-    margin-bottom: 0
-    float: left
-
-    &,
-    &:visited
-        color: $grey-color-dark
-
-.site-nav
-    float: right
-    line-height: 56px
-
-    .menu-icon
-        display: none
-
-    .page-link
-        color: $text-color
-        line-height: $base-line-height
-
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child)
-            margin-left: 20px
-
-    @include media-query($on-palm)
+    text-align: center
+    margin: 60px 0
+    &:after
+        content: ""
         position: absolute
-        top: 9px
-        right: 30px
-        background-color: $background-color
-        border: 1px solid $grey-color-light
-        border-radius: 5px
-        text-align: right
+        height: 100%
+        width: 1px
+        background-color: $dark-blue
+        left: 50%
+        top: 0px
+    ul
+        padding: 0
 
-        .menu-icon
-            display: block
-            float: right
-            width: 36px
-            height: 26px
-            line-height: 0
-            padding-top: 10px
-            text-align: center
+.timeline-year
+    border: 1px solid $dark-blue
+    background: white
+    font-size: 1em
+    color: $dark-blue
+    font-weight: 400
+    display: inline-block
+    padding: 10px 15px
+    margin: 10px 0 60px
+    position: relative
+    z-index: 10
 
-            > svg
-                width: 18px
-                height: 15px
-
-                path
-                    fill: $grey-color-dark
-
-        .trigger
-            clear: both
-            display: none
-
-        &:hover .trigger
-            display: block
-            padding-bottom: 5px
-
-        .page-link
-            display: block
-            padding: 5px 10px
-
-
-
-/**
- * Site footer
- */
-.site-footer
-    background: $black
-    padding: $spacing-unit*2 0
-    margin-top: $spacing-unit*2
-    color: $gray-text
-
-.footer-heading
-    font-size: 18px
-    margin-bottom: $spacing-unit / 2
-
-.contact-list,
-.social-media-list
-    list-style: none
-    margin-left: 0
-
-.footer-col-wrapper
-    font-size: 15px
-    color: $gray-text
-    margin-left: -$spacing-unit / 2
-    @extend %clearfix
-
-.footer-col
-    float: left
-    margin-bottom: $spacing-unit / 2
-    padding-left: $spacing-unit / 2
-
-.footer-col-1
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2))
-    width:         calc(35% - (#{$spacing-unit} / 2))
-
-.footer-col-2
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2))
-    width:         calc(20% - (#{$spacing-unit} / 2))
-
-.footer-col-3
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2))
-    width:         calc(45% - (#{$spacing-unit} / 2))
-
-@include media-query($on-laptop)
-    .footer-col-1,
-    .footer-col-2
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2))
-        width:         calc(50% - (#{$spacing-unit} / 2))
-
-    .footer-col-3
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2))
-        width:         calc(100% - (#{$spacing-unit} / 2))
-
-@include media-query($on-palm)
-    .footer-col
-        float: none
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2))
-        width:         calc(100% - (#{$spacing-unit} / 2))
+.timeline-item
+    width: 50%
+    text-align: right
+    padding: 0 45px 0 0
+    position: relative
+    margin: 0 0 60px
+    &:before
+        content: ""
+        width: 16px
+        height: 16px
+        border-radius: 50%
+        background: rgba($red, 0.7)
+        position: absolute
+        top: 5px
+        right: -9px
+        z-index: 20
+    &:after
+        content: ""
+        position: absolute
+        height: 1px
+        width: 40px
+        background-color: $dark-blue
+        top: 13px
+        right: 0
+    time
+        font-size: 0.83em
+    a
+        border-color: $dark-blue
+        color: $dark-blue
+    &:nth-child(2n)
+        text-align: left
+        padding: 0 0 0 45px
+        left: 50%
+        &:before
+            left: -9px
+            right: auto
+        &:after
+            left: 0
+            right: auto
 
 
+// mobile ------------------------------------------------------------------------------------
 
-/**
- * Page content
- */
-.page-heading
-    font-size: 20px
-
-.post-list
-    margin-left: 0
-    list-style: none
-
-    > li
-        margin-bottom: $spacing-unit
-
-.post-meta
-    font-size: $small-font-size
-    color: $grey-color
-
-.post-link
-    display: block
-    font-size: 24px
-
-
-
-/**
- * Posts
- */
-.post-header
-    margin-bottom: $spacing-unit
-
-.post-title
-    font-size: 42px
-    letter-spacing: -1px
-    line-height: 1
-
-    @include media-query($on-laptop)
-        font-size: 36px
-
-.post-content
-    margin-bottom: $spacing-unit
-
-    h2
-        font-size: 32px
-
-        @include media-query($on-laptop)
-            font-size: 28px
-
-    h3
-        font-size: 26px
-
-        @include media-query($on-laptop)
-            font-size: 22px
-
-    h4
-        font-size: 20px
-
-        @include media-query($on-laptop)
-            font-size: 18px
+@media (max-width: $on-laptop)
+    .presentation
+        padding-top: $spacing-unit*1
+        h1
+            font-size: 2.7em
+        p
+            font-size: 1em
+        a
+            font-size: 0.8em
+    .content
+        max-width: 96%

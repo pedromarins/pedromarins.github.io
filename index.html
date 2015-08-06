@@ -1,30 +1,32 @@
 ---
 layout: index
+title: Pedro Marins
 ---
 
-<div class="presentation">
+<header class="presentation">
 	<div class="wrapper">
 		<h1>Pedro Marins</h1>
 		<p>{{ site.description }}</p>
 		<a class="post-link" href="{{ site.baseurl }}/about">Saiba mais sobre mim...</a>
 	</div>
-</div>
+</header>
 
 <div class="wrapper content">
 	<div class="post-headlines">
 		<h1 class="box-heading">Blog</h1>
-		<p class="box-description">Some <span>technical</span> content, <span>entrepreneurship</span> stories and other <span>random stuff</span> powered by <a class="blog-link" href=""><span class="blog-link-span" data-title="beerblogging">beerblogging</span></a></p>
-		
+		<p class="box-description">Conteúdo técnico, histórias de empreendedorismo e outras aleatoriedades impulsionadas pelo <a class="blog-link" href=""><span class="blog-link-span" data-title="beerblogging">beerblogging</span></a></p>
+
 		<ul class="post-list">
 			{% for post in site.posts %}
 			<li>
-				<span class="post-meta">{{ post.date | date: "%-d/%m/%Y" }}</span>
-				<h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+				<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+					<h2>{{ post.title }}</h2>
+					<p>{{ post.short }}</p>
+					<span class="post-meta">{{ post.date | date: "%-d/%m/%Y" }}</span>
+				</a>
 			</li>
 			{% endfor %}
 		</ul>
-
-		<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 	</div>
 
 	<div class="events">
