@@ -12,6 +12,7 @@ github_username:  http://github.com/pedromarins
 facebook_username:  http://facebook.com/pedrolmarins
 linkedin_username:  http://linkedin.com/in/pedromarins
 
+excerpt_separator: "<!--more-->"
 permalink: /:title/
 
 
