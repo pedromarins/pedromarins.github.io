@@ -1,11 +1,13 @@
 ---
 layout: default
 ---
+
 <div class="post">
 
   <header class="post-header">
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }} • Leitura de {{ page.reading }}</p>
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <p class="post-subtitle">{{ page.subtitle }}</p>
   </header>
 
   <article class="post-content">
@@ -13,6 +15,24 @@ layout: default
   </article>
 
   <footer class="post-footer">
+    <div>
+      <p>compartilhe</p>
+    </div>
+
+    <div class="author">
+      <img class="author-img" src="{{ "/img/pedro-marins.jpg" | prepend: site.baseurl }}" alt="Pedro Marins">
+      <h3 class="author-name">Pedro Marins</h3>
+      <a class="author-follow" href="http://twitter.com/pedromarins">Twitter</a>
+    </div>
+
+    <div>
+      <p>se inscreva na newsletter</p>
+    </div>
     <!-- mailchimp -->
+
+    <div>
+      <p>comentários</p>
+    </div>
+
   </footer>
 </div>
