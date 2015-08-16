@@ -11,10 +11,7 @@ li
     list-style: none
 
 a
-    border-bottom: 1px solid $black
     text-decoration: none
-    display: inline-block
-    line-height: 0.95
 
 .wrapper
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2))
@@ -23,6 +20,7 @@ a
     margin-left: auto
     padding-right: $spacing-unit
     padding-left: $spacing-unit
+    position: relative
 
     @include media-query($on-tablet)
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}))
@@ -346,4 +344,26 @@ hr
 
 
 
+// site-footer ------------------------------------------------------------------------------------
+.site-footer
+    background: $dark-blue
+    padding: $spacing-unit/2 0
+    color: white
 
+.footer-heading
+    display: inline-block
+
+.social-media-list
+    display: inline-block
+    padding: 0
+    li
+        display: inline-block
+        &:before
+            content: " • "
+    a
+        color: white
+
+.copyleft
+    position: absolute
+    right: 0
+    top: 0
