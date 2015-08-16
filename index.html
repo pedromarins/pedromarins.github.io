@@ -15,24 +15,27 @@ title: Pedro Marins
 <div class="wrapper content">
 	<div class="post-headlines">
 		<h1 class="box-heading">Blog</h1>
-		<p class="box-description">Conteúdo técnico, histórias de empreendedorismo e outras aleatoriedades impulsionadas pelo <a class="blog-link" href=""><span class="blog-link-span" data-title="beerblogging">beerblogging</span></a></p>
+		<p class="box-description">Conteúdo <strong>técnico</strong>, <strong>empreendedorismo</strong> e outras <strong>aleatoriedades</strong> sobre as quais eu tenho algo para contar.</p>
 
 		<ul class="post-list">
 			{% for post in site.posts %}
-			<li>
-				<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-					<h2>{{ post.title }}</h2>
-					{{ post.excerpt }}
-					<span class="post-meta">{{ post.date | date: "%-d/%m/%Y" }}</span>
+			<li class="post-list-item">
+				<a class="post-list-link" href="{{ post.url | prepend: site.baseurl }}">
+					<h2 class="post-list-title">{{ post.title }}</h2>
 				</a>
+				<p class="post-list-one_line">{{ post.one_line }}</p>
+				<span class="post-list-meta">Publicado em {{ post.date | date: "%B %Y" }}</span>
 			</li>
 			{% endfor %}
 		</ul>
+		<p>Se quiser ver a lista completa de posts entre no <a class="post-list-link" href="#"><strong>arquivo</strong></a>.</p>
 	</div>
 
+	<hr>
+
 	<div class="events">
-		<h1 class="box-heading">Events</h1>
-		<p class="box-description">List of events that I <span>created</span>, <span>organized</span>, <span>curated</span> or <span>helped</span> in some way</p>
+		<h1 class="box-heading">Eventos</h1>
+		<p class="box-description">Lista com alguns dos eventos mais importantes que eu <strong>criei</strong>, <strong>organizei</strong> ou <strong>fui curador</strong>.</p>
 
 		<ul class="events-list">
 			<li class="event">
@@ -95,6 +98,14 @@ title: Pedro Marins
 					</a>
 				</figure>
 			</li>
-		</div>
+		</ul>
+	</div>
+
+	<hr>
+
+	<div class="newsletter">
+		<h1 class="box-heading">Newsletter</h1>
+		<p class="box-description">Tenho uma newsletter onde semanalmente compartilho as coisas mais interessantes que li, ouvi, fiz, estudei ou comprei. É bem bacana! Se quiser participar se inscreva abaixo. :D</p>
+
 	</div>
 </div>
