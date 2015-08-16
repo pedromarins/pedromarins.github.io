@@ -139,15 +139,84 @@ a
 
 
 // mobile ------------------------------------------------------------------------------------
+// post ------------------------------------------------------------------------------------
+.post
+    background: white
+    padding: 0 5%
+    color: $dark-blue
 
-@media (max-width: $on-laptop)
-    .presentation
-        padding-top: $spacing-unit*1
-        h1
-            font-size: 2.7em
+    @include media-query($on-tablet)
+        padding: 0
+
+.post-meta
+    text-align: right
+    margin: $spacing-unit*1.5 0 0
+    font-size: 0.9em
+
+.post-header
+    text-align: center
+
+.post-title
+    font-size: 60px
+    font-weight: 700
+    margin: $spacing-unit*2.5 0 $spacing-unit
+    line-height: 1
+
+.post-subtitle
+    font-weight: 300
+    font-style: normal
+    font-size: 32px
+    margin: 0 0 $spacing-unit*3
+
+.post-content
+    p
+        margin-bottom: $spacing-unit
+        word-wrap: break-word
+        font-size: 22px
+        line-height: 1.5
+    pre
+        background: lighten($dark-blue, 10%)
+        border-radius: 5px
+        border: 1px solid $dark-blue
+        width: 100%
+        color: white
+        box-shadow: inset 0 0 40px lighten($dark-blue, 30%)
+        padding: $spacing-unit
+    blockquote
+        margin: 0
+        text-align: center
         p
-            font-size: 1em
-        a
-            font-size: 0.8em
-    .content
-        max-width: 96%
+            font-size: 2em
+            letter-spacing: .01em
+            line-height: 1.4
+            font-style: italic
+            &:before
+                content: '"'
+            &:after
+                content: '"'
+
+hr
+    border: none
+    border-top: 10px solid $dark-blue
+    border-bottom: 10px solid $blue
+    height: 0
+
+// post-footer ------------------------------------------------------------------------------------
+.author
+    border-top: 1px solid $gray
+    border-bottom: 1px solid $gray
+    padding: $spacing-unit 0
+
+.author-img
+    border-radius: 50%
+    vertical-align: middle
+    margin: 0 $spacing-unit/2 0 0
+
+.author-name
+    font-size: 18px
+    vertical-align: middle
+    display: inline-block
+
+.author-follow
+    float: right
+
