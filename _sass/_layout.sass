@@ -106,6 +106,38 @@ a
 
 
 
+// events-list ------------------------------------------------------------------------------------
+.events-list
+    padding: 0
+    margin: $spacing-unit*2 0 0
+
+.event
+    display: inline-block
+    width: 30%
+    margin: 0 1% $spacing-unit*1.5
+
+    @include media-query($on-tablet)
+        width: 47%
+
+    @include media-query($on-mobile)
+        width: 97%
+
+    figure
+        margin: 0
+
+    a
+        width: 100%
+        display: inline-block
+        border: none
+        text-align: center
+        color: $dark-blue
+        font-weight: 700
+
+.event-img
+    height: 130px
+    width: 100%
+    margin: 0 0 $spacing-unit/2
+    text-align: center
 
 // timeline ------------------------------------------------------------------------------------
 .timelime-content
