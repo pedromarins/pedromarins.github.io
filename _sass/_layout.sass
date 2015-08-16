@@ -4,7 +4,6 @@
 
 body
     font-family: 'Open Sans', sans-serif
-    background: $gray
     border-top: 5px solid $red
     margin: 0
 
@@ -25,7 +24,7 @@ a
     padding-right: $spacing-unit
     padding-left: $spacing-unit
 
-    @include media-query($on-laptop)
+    @include media-query($on-tablet)
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}))
         max-width:         calc(#{$content-width} - (#{$spacing-unit}))
         padding-right: $spacing-unit / 2
@@ -37,31 +36,76 @@ a
     padding: $spacing-unit*2
     box-shadow: 0px 0px 5px rgba(0,0,0,.3)
 
+    @include media-query($on-tablet)
+        max-width: 96%
+
+    @include media-query($on-mobile)
+        padding: $spacing-unit
+
 .presentation
     background: $dark-blue
     padding: $spacing-unit*2 0 $spacing-unit*10
     color: $white
     text-align: center
+
+    @include media-query($on-tablet)
+        padding-top: $spacing-unit*1
     h1
         font-size: 6em
         font-weight: 700
         text-transform: uppercase
         line-height: 1.7
         margin: 0
+
+        @include media-query($on-tablet)
+            font-size: 2.7em
     p
         font-size: 2em
         text-transform: uppercase
+
+        @include media-query($on-tablet)
+            font-size: 1em
     a
         color: $blue
         border-color: $blue
         font-size: 0.9em
+
+        @include media-query($on-tablet)
+            font-size: 0.8em
 
 .box-heading
     font-size: 1.8em
     font-weight: 600
     text-transform: uppercase
 
-// timeline ------------------------------------------------------------------------------------
+
+// site-header ------------------------------------------------------------------------------------
+.site-header
+    background: $dark-blue
+    position: relative
+    margin: 0 0 $spacing-unit*2
+    a
+        color: white
+        border: none
+.site-title
+    display: inline-block
+    margin: 0 0 0 5%
+    font-size: 1.2em
+    line-height: $spacing-unit*2
+.site-nav
+    position: absolute
+    top: 0
+    right: 5%
+    ul
+        margin: 0
+        padding: 0
+.nav-item
+    display: inline-block
+    line-height: $spacing-unit*2
+    margin: 0 0 0 $spacing-unit/2
+
+
+
 
 // timeline ------------------------------------------------------------------------------------
 .timelime-content
@@ -187,7 +231,6 @@ a
 .item-job:before
     content: "j"
 
-// mobile ------------------------------------------------------------------------------------
 // post ------------------------------------------------------------------------------------
 .post
     background: white
@@ -268,4 +311,7 @@ hr
 
 .author-follow
     float: right
+
+
+
 
