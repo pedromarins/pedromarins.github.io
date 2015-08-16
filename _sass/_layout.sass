@@ -63,10 +63,14 @@ a
 
 // timeline ------------------------------------------------------------------------------------
 
+// timeline ------------------------------------------------------------------------------------
 .timelime-content
     position: relative
     text-align: center
-    margin: 60px 0
+    margin: $spacing-unit*2 0
+
+    @include media-query($on-tablet)
+        text-align: left
     &:after
         content: ""
         position: absolute
@@ -75,38 +79,56 @@ a
         background-color: $dark-blue
         left: 50%
         top: 0px
+
+        @include media-query($on-tablet)
+            left: 35px
     ul
         padding: 0
 
 .timeline-year
     border: 1px solid $dark-blue
-    background: white
+    background: $dark-blue
     font-size: 1em
-    color: $dark-blue
-    font-weight: 400
+    color: white
+    font-weight: 700
     display: inline-block
-    padding: 10px 15px
-    margin: 10px 0 60px
+    padding: $spacing-unit/2 $spacing-unit
+    margin: $spacing-unit/3 0 $spacing-unit*2
     position: relative
     z-index: 10
+
+    @include media-query($on-tablet)
+        padding: $spacing-unit/3 $spacing-unit/2
 
 .timeline-item
     width: 50%
     text-align: right
-    padding: 0 45px 0 0
+    padding: 0 $spacing-unit*1.5 0 0
     position: relative
-    margin: 0 0 60px
+    margin: 0 0 $spacing-unit*2
+
+    @include media-query($on-tablet)
+        width: 100%
+        text-align: left
+        padding: 0 0 0 $spacing-unit*3
     &:before
         content: ""
-        width: 16px
-        height: 16px
+        width: 40px
+        height: 40px
         border-radius: 50%
-        background: rgba($red, 0.7)
+        border: 1px solid $dark-blue
+        background: $red
         position: absolute
-        top: 5px
-        right: -9px
+        top: -8px
+        right: -22px
         z-index: 20
         transition: 0.8s
+        color: white
+        text-align: center
+        line-height: 40px
+
+        @include media-query($on-tablet)
+            left: 14px
     &:after
         content: ""
         position: absolute
@@ -115,6 +137,9 @@ a
         background-color: $dark-blue
         top: 13px
         right: 0
+
+        @include media-query($on-tablet)
+            left: 40px
     h3
         margin: 0.6em 0
     time
@@ -126,17 +151,41 @@ a
         color: $dark-blue
     &:nth-child(2n)
         text-align: left
-        padding: 0 0 0 45px
+        padding: 0 0 0 $spacing-unit*1.5
         left: 50%
+
+        @include media-query($on-tablet)
+            width: 100%
+            padding: 0 0 0 90px
+            left: auto
         &:before
-            left: -9px
+            left: -22px
             right: auto
+
+            @include media-query($on-tablet)
+                left: 14px
         &:after
             left: 0
             right: auto
-    &:hover:before
-        transform: scale(1.6)
 
+            @include media-query($on-tablet)
+                left: 40px
+    &:hover:before
+        transform: scale(1.2)
+
+// timeline-icons ------------------------------------------------------------------------------------
+.item-project:before
+    content: "p"
+.item-school:before
+    content: "s"
+.item-life:before
+    content: "l"
+.item-event:before
+    content: "e"
+.item-talk:before
+    content: "t"
+.item-job:before
+    content: "j"
 
 // mobile ------------------------------------------------------------------------------------
 // post ------------------------------------------------------------------------------------
