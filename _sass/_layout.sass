@@ -3,15 +3,19 @@
     box-sizing: border-box
 
 body
-    font-family: 'Open Sans', sans-serif
+    font-family: $base-font-family
     border-top: 5px solid $red
     margin: 0
+    font-size: $base-font-size
+    line-height: $base-line-height
 
 li
     list-style: none
 
 a
     text-decoration: none
+    &:hover
+        text-decoration: underline
 
 .wrapper
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2))
@@ -102,7 +106,26 @@ a
     line-height: $spacing-unit*2
     margin: 0 0 0 $spacing-unit/2
 
+// post-list ------------------------------------------------------------------------------------
+.post-list
+    padding: 0
+    margin: $spacing-unit $spacing-unit*2 0
 
+.post-list-item
+    padding: $spacing-unit/2 0
+    border-top: 1px solid $dark-blue
+    &:hover
+        background: rgba($dark-blue, 0.05)
+
+.post-list-link
+    color: $dark-blue
+
+.post-list-title
+    margin: 0
+
+.post-list-one_line
+
+.post-list-meta
 
 // events-list ------------------------------------------------------------------------------------
 .events-list
@@ -322,6 +345,7 @@ hr
     border-top: 10px solid $dark-blue
     border-bottom: 10px solid $blue
     height: 0
+    margin: $spacing-unit*2 0
 
 // post-footer ------------------------------------------------------------------------------------
 // .post-share -----------
