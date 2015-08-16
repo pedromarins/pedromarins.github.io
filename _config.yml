@@ -16,8 +16,11 @@ excerpt_separator: "<!--more-->"
 permalink: /:title/
 
 
-# Build settings
 markdown: kramdown
+
+sass:
+    sass_dir: assets/css
+
 
 
 
