@@ -15,14 +15,16 @@ layout: default
   </article>
 
   <footer class="post-footer">
-    <div>
-      <p>compartilhe</p>
+    <div class="post-share">
+      <h3>Compartilhe</h3>
+      <a href="https://twitter.com/share" class="post-share-twitter twitter-share-button" data-via="pedromarins" data-lang="pt" data-size="medium">Tweetar</a>
+
     </div>
 
-    <div class="author">
-      <img class="author-img" src="{{ "/img/pedro-marins.jpg" | prepend: site.baseurl }}" alt="Pedro Marins">
-      <h3 class="author-name">Pedro Marins</h3>
-      <a href="https://twitter.com/pedromarins" class="author-follow twitter-follow-button" data-show-count="false" data-lang="pt" data-size="large">Seguir @pedromarins</a>
+    <div class="post-author">
+      <img class="post-author-img" src="{{ "/img/pedro-marins.jpg" | prepend: site.baseurl }}" alt="Pedro Marins">
+      <h3 class="post-author-name">Pedro Marins</h3>
+      <a href="https://twitter.com/pedromarins" class="post-author-follow twitter-follow-button" data-show-count="false" data-lang="pt" data-size="large">Seguir @pedromarins</a>
     </div>
 
     <div class="post-newsletter">
@@ -36,4 +38,7 @@ layout: default
 
   </footer>
 </div>
+
+
+<!-- Twitter share and follow buttons -->
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
