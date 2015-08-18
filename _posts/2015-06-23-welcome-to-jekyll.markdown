@@ -1,12 +1,20 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2015-06-23 17:05:38
+title: Welcome to Jekyll!
+subtitle: Esse aqui é o subtítulo da parada
+one_line: Teste de uma linha
+date: 2015-06-23 17:05:38
 categories: jekyll update
+reading: 5 min
+author: Pedro Marins
+published: true
+comments: true
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. <!--more--> You can rebuild the site in many different ***ways, but the most*** common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+> To add new posts, simply add a *file in the* `_posts` directory that **follows the convention** 
+
+`YYYY-MM-DD-name-of-post.ext` and includes ![Jekyll docs][img-1] the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
 Jekyll also offers powerful support for code snippets:
 
@@ -23,3 +31,4 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 [jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-help]: https://github.com/jekyll/jekyll-help
+[img-1]: {{ "/img/pedro-marins.jpg" | prepend: site.baseurl }}
