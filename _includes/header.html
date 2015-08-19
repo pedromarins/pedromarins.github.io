@@ -1,16 +1,15 @@
 <header class="site-header">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <a class="site-title" href="{{ site.url }}/">{{ site.title }}</a>
 
     <nav class="site-nav">
         <ul>
-            {% for page in site.pages %}
-                {% if page.title %}
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.alias }}</a>
-                </li>
-                {% endif %}
-            {% endfor %}
+            <li class="nav-item">
+                <a class="nav-link" href="/about/">sobre</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/blog/">blog</a>
+            </li>
         </ul>
     </nav>
 
