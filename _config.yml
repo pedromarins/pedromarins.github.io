@@ -1,11 +1,10 @@
 safe:        false
 baseurl:     /
-url: http://blog.riojs.org/
+url: http://pedromarins.github.io/
 
 name: Pedro Marins
 title: Pedro Marins
 description: front-end developer and events organizer with a passion for teaching and startups
-url: http://localhost:4000
 domain: pedromarins.com
 commentlinks: true
 
