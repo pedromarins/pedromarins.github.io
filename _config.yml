@@ -1,12 +1,18 @@
-baseurl: ""
-url: "http://pedromarins.com"
+safe:        false
+baseurl:     /
+url: http://blog.riojs.org/
+
+name: Pedro Marins
+title: Pedro Marins
+description: front-end developer and events organizer with a passion for teaching and startups
+url: http://localhost:4000
 domain: pedromarins.com
 commentlinks: true
 
-title: Pedro Marins
-email: contato@pedromarins.com
-description: > #
-  front-end developer and events organizer with a passion for teaching and startups
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+
 twitter_username: http://twitter.com/pedromarins
 github_username:  http://github.com/pedromarins
 facebook_username:  http://facebook.com/pedrolmarins
@@ -20,9 +26,3 @@ markdown: kramdown
 
 sass:
     sass_dir: assets/css
-
-
-
-
-
-

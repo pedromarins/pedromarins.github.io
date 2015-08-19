@@ -8,7 +8,7 @@ title: Pedro Marins
 	<div class="wrapper">
 		<h1>Pedro Marins</h1>
 		<p>{{ site.description }}</p>
-		<a class="post-link" href="{{ site.baseurl }}/about">Saiba mais sobre mim...</a>
+		<a class="post-link" href="about">Saiba mais sobre mim...</a>
 	</div>
 </header>
 
@@ -20,7 +20,7 @@ title: Pedro Marins
 		<ul class="post-list">
 			{% for post in site.posts %}
 			<li class="post-list-item">
-				<a class="post-list-link" href="{{ post.url | prepend: site.baseurl }}">
+				<a class="post-list-link" href="{{ post.url | prepend: site.url }}">
 					<h2 class="post-list-title">{{ post.title }}</h2>
 				</a>
 				<p class="post-list-one_line">{{ post.one_line }}</p>
@@ -42,7 +42,7 @@ title: Pedro Marins
 				<figure>
 					<a href="">
 						<div class="event-img">
-							<img src="{{ "assets/img/events/frontinrio.png" | prepend: site.baseurl }}" alt="Logo do Front in Rio">
+							<img src="{{ site.url}}/assets/img/events/frontinrio.png" alt="Logo do Front in Rio">
 						</div>
 						<figcaption class="event-title">Front in Rio</figcaption>
 					</a>
@@ -52,7 +52,7 @@ title: Pedro Marins
 				<figure>
 					<a href="">
 						<div class="event-img">
-							<img src="{{ "assets/img/events/geeks-on-beer.jpg" | prepend: site.baseurl }}" alt="Logo do Geeks On Beer">
+							<img src="{{ site.url}}/assets/img/events/geeks-on-beer.jpg" alt="Logo do Geeks On Beer">
 						</div>
 						<figcaption class="event-title">Geeks On Beer</figcaption>
 					</a>
@@ -62,7 +62,7 @@ title: Pedro Marins
 				<figure>
 					<a href="">
 						<div class="event-img">
-							<img src="{{ "assets/img/events/riojs.png" | prepend: site.baseurl }}" alt="Logo do Rio.JS Conference">
+							<img src="{{ site.url}}/assets/img/events/riojs.png" alt="Logo do Rio.JS Conference">
 						</div>
 						<figcaption class="event-title">Rio.JS Conference</figcaption>
 					</a>
@@ -72,7 +72,7 @@ title: Pedro Marins
 				<figure>
 					<a href="">
 						<div class="event-img">
-							<img src="{{ "assets/img/events/rio-info.png" | prepend: site.baseurl }}" alt="Logo do Rio Info">
+							<img src="{{ site.url}}/assets/img/events/rio-info.png" alt="Logo do Rio Info">
 						</div>
 						<figcaption class="event-title">Rio Info</figcaption>
 					</a>
@@ -82,7 +82,7 @@ title: Pedro Marins
 				<figure>
 					<a href="">
 						<div class="event-img">
-							<img src="{{ "assets/img/events/openspace-rio-logo-azul.png" | prepend: site.baseurl }}" alt="Logo do Open Space Rio">
+							<img src="{{ site.url}}/assets/img/events/openspace-rio-logo-azul.png" alt="Logo do Open Space Rio">
 						</div>
 						<figcaption class="event-title">Open Space Rio</figcaption>
 					</a>
@@ -92,7 +92,7 @@ title: Pedro Marins
 				<figure>
 					<a href="">
 						<div class="event-img">
-							<img src="{{ "assets/img/events/hdc.png" | prepend: site.baseurl }}" alt="Logo do Hack & Design Conference">
+							<img src="{{ site.url}}/assets/img/events/hdc.png" alt="Logo do Hack & Design Conference">
 						</div>
 						<figcaption class="event-title">Hack & Design Conference</figcaption>
 					</a>
