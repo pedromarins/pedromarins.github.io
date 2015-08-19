@@ -33,10 +33,7 @@ a
         padding-left: $spacing-unit / 2
 
 .content
-    margin-top: -$spacing-unit*8
-    background: $white
     padding: $spacing-unit*2
-    box-shadow: 0px 0px 5px rgba(0,0,0,.3)
 
     @include media-query($on-tablet)
         max-width: 96%
@@ -46,7 +43,7 @@ a
 
 .presentation
     background: $dark-blue
-    padding: $spacing-unit*2 0 $spacing-unit*10
+    padding: $spacing-unit*2 0
     color: $white
     text-align: center
 
@@ -123,10 +120,6 @@ a
 .post-list-title
     margin: 0
 
-.post-list-one_line
-
-.post-list-meta
-
 // events-list ------------------------------------------------------------------------------------
 .events-list
     padding: 0
@@ -159,6 +152,25 @@ a
     width: 100%
     margin: 0 0 $spacing-unit/2
     text-align: center
+
+// about ------------------------------------------------------------------------------------
+.eu
+    width: 100%
+    margin-top: -2*$spacing-unit
+
+.about-heading
+    text-align: center
+    font-style: italic
+    font-size: 2.4em
+    font-weight: 600
+    text-transform: uppercase
+
+    @include media-query($on-tablet)
+        font-size: 2em
+
+    @include media-query($on-mobile)
+        font-size: 1.6em
+
 
 // timeline ------------------------------------------------------------------------------------
 .timelime-content
