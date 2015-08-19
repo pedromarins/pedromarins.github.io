@@ -8,6 +8,7 @@ body
     margin: 0
     font-size: $base-font-size
     line-height: $base-line-height
+    z-index: 0
 
 li
     list-style: none
@@ -82,7 +83,6 @@ a
 .site-header
     background: $dark-blue
     position: relative
-    margin: 0 0 $spacing-unit*2
     a
         color: white
         border: none
@@ -106,19 +106,38 @@ a
 // post-list ------------------------------------------------------------------------------------
 .post-list
     padding: 0
-    margin: $spacing-unit $spacing-unit*2 0
+    margin: $spacing-unit*2
+
+    @include media-query($on-tablet)
+        margin: $spacing-unit 0
+        font-size: 0.9em
+
+    @include media-query($on-mobile)
+        font-size: 0.9em
+
 
 .post-list-item
     padding: $spacing-unit/2 0
-    border-top: 1px solid $dark-blue
-    &:hover
-        background: rgba($dark-blue, 0.05)
+
+    &:first-child
+        border-top: 1px solid $gray
+        border-bottom: 1px solid $gray
+        padding: $spacing-unit 0
 
 .post-list-link
-    color: $dark-blue
+    color: black
+    &:hover
+        text-decoration: none
 
 .post-list-title
     margin: 0
+
+.post-list-one_line
+    margin: 0
+
+.post-list-meta
+    color: $gray-text
+    font-size: $small-font-size
 
 // events-list ------------------------------------------------------------------------------------
 .events-list
@@ -156,7 +175,6 @@ a
 // about ------------------------------------------------------------------------------------
 .eu
     width: 100%
-    margin-top: -2*$spacing-unit
 
 .about-heading
     text-align: center
@@ -299,7 +317,7 @@ a
 // post ------------------------------------------------------------------------------------
 .post
     background: white
-    padding: 0 5%
+    padding: 0 10%
     color: $dark-blue
 
     @include media-query($on-tablet)
@@ -459,6 +477,7 @@ hr
     right: 0
     top: 0
 
+
 // contact-form ------------------------------------------------------------------------------------
 .contact-form
     position: absolute
@@ -528,3 +547,4 @@ hr
     border: none
     font-weight: 300
     cursor: pointer
+    outline: none

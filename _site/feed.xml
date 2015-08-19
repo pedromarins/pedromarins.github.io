@@ -2,19 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pedro Marins</title>
-    <description>front-end developer and events organizer with a passion for teaching and startups
-</description>
-    <link>http://pedromarins.com/</link>
-    <atom:link href="http://pedromarins.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 07 Aug 2015 02:13:09 +0200</pubDate>
-    <lastBuildDate>Fri, 07 Aug 2015 02:13:09 +0200</lastBuildDate>
+    <description>front-end developer and events organizer with a passion for teaching and startups</description>
+    <link>http://localhost:4000//</link>
+    <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 18 Aug 2015 23:45:48 -0300</pubDate>
+    <lastBuildDate>Tue, 18 Aug 2015 23:45:48 -0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. &lt;!--more--&gt; You can rebuild the site in many different &lt;strong&gt;&lt;em&gt;ways, but the most&lt;/em&gt;&lt;/strong&gt; common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;To add new posts, simply add a &lt;em&gt;file in the&lt;/em&gt; &lt;code&gt;_posts&lt;/code&gt; directory that &lt;strong&gt;follows the convention&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes &lt;img src=&quot;//img/pedro-marins.jpg&quot; alt=&quot;Jekyll docs&quot; /&gt; the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
 &lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
 
@@ -27,9 +30,57 @@
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Tue, 23 Jun 2015 19:05:38 +0200</pubDate>
-        <link>http://pedromarins.com/jekyll/update/2015/06/23/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://pedromarins.com/jekyll/update/2015/06/23/welcome-to-jekyll.html</guid>
+        <pubDate>Tue, 23 Jun 2015 14:05:38 -0300</pubDate>
+        <link>http://localhost:4000//welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://localhost:4000//welcome-to-jekyll/</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>O que eu faria hoje se tivesse que recomeçar a carreira</title>
+        <description>&lt;p&gt;Antes de mais nada, quero te contar porque estou fazendo esse guia. Dou aula de desenvolvimento front-end na Caelum a quase dois anos. Já foram mais de 20 turmas, onde ensinei HTML, CSS e JavaScript para mais de 200 pessoas. Em todas as turmas, sem exceção, surgem as perguntas clássicas: quanto cobrar por um site, ou como conseguir um emprego.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;Estou criando esse guia para compartilhar a minha resposta para essas fatídicas perguntas, me botando no papel de quem está começando. Não tenho a resposta para tudo, mas depois de quase 10 anos no mercado consigo ver claramente quais foram as boas decisões que eu tomei que geraram um grande impacto na minha carreira. Pena que só tenho esse conhecimento agora. Felizmente, para você que está começando, está ai o meu passo a passo!&lt;/p&gt;
+
+&lt;p&gt;Antes de mais nada, você precisa de experiência. A melhor forma de aprender é fazendo. &lt;strong&gt;Inquestionável.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;comearia-fazendo-um-site-de-graa&quot;&gt;Começaria fazendo um site de graça&lt;/h2&gt;
+
+&lt;p&gt;Depois de fazer o primeiro, você agora já sabe alguma coisa. Esse é o momento de entrar em um curso. Dado o conhecimento adquirido, você vai absorver muito mais do material que está estudando. Vai conseguir navegar por todas as nuances do que está sendo explanado e realmente absorver o conteúdo&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;tentaria-vender-o-primeiro&quot;&gt;tentaria vender o primeiro&lt;/h2&gt;
+
+&lt;h2 id=&quot;tentaria-vender-o-segundo&quot;&gt;tentaria vender o segundo&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Agora que já sei algumas coisas, que já estudei muitos itens específicos e que já tenho uma linha clara do que devo fazer para criar um website, tenho duas claras opções: procurar um emprego ou continuar como freelancer. Essas opções básicas abrangem basicamente a vida de um desenvolvedor. Ou ele vai trabalhar para alguma, ou ele vai trabalhar por conta própria para vários clientes. As duas abordagens tem seus pontos positivos e negativos. O emprego trás a estabilidade e a vida freelancer trás mais liberdade. A decisão é sua, mas recomendo que teste as duas.&lt;/p&gt;
+
+&lt;p&gt;Em qualquer uma das opções é necessário que você adquira mais um conhecimento: vendas. Você precisa aprender a se vender, tanto se for procurar um emprego, tanto para sua prestação de serviços como freelancer.&lt;/p&gt;
+
+&lt;h2 id=&quot;procuro-um-emprego&quot;&gt;Procuro um emprego&lt;/h2&gt;
+&lt;p&gt;Ainda não sou um experiênte desenvolvedor. Talvez consiga uma vaga de estagiário, ou desenvolvedor junior.&lt;/p&gt;
+
+&lt;h2 id=&quot;continuo-como-freelancer&quot;&gt;Continuo como freelancer&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;O que fazer para adquirir ainda mais conhecimento:&lt;/p&gt;
+
+&lt;h2 id=&quot;participar-de-eventos&quot;&gt;Participar de eventos&lt;/h2&gt;
+
+&lt;h2 id=&quot;open-source&quot;&gt;Open Source&lt;/h2&gt;
+</description>
+        <pubDate>Tue, 23 Jun 2015 14:05:38 -0300</pubDate>
+        <link>http://localhost:4000//guia-para-desenvolvedores-iniciantes/</link>
+        <guid isPermaLink="true">http://localhost:4000//guia-para-desenvolvedores-iniciantes/</guid>
         
         
         <category>jekyll</category>

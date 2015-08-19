@@ -12,14 +12,13 @@ permalink: /blog/
 		<ul class="post-list">
 			{% for post in site.posts %}
 			<li class="post-list-item">
+				<span class="post-list-meta">{{ post.date | date: "%B %Y" }}</span>
 				<a class="post-list-link" href="{{ post.url | prepend: site.url }}">
 					<h2 class="post-list-title">{{ post.title }}</h2>
+					<p class="post-list-one_line">{{ post.one_line }}</p>
 				</a>
-				<p class="post-list-one_line">{{ post.one_line }}</p>
-				<span class="post-list-meta">Publicado em {{ post.date | date: "%B %Y" }}</span>
 			</li>
 			{% endfor %}
 		</ul>
-		<p>Se quiser ver a lista completa de posts entre no <a class="post-list-link" href="#"><strong>arquivo</strong></a>.</p>
 	</div>
 </div>
