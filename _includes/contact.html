@@ -1,0 +1,29 @@
+<div class="contact-form" id="contact-form">
+  <button type="button" class="close-form" id="close-form">&#10005;</button>
+  <form action="//formspree.io/contato@pedromarins.com" method="POST">
+      <h4>Contato</h4>
+
+      <input type="text" name="_gotcha" style="display:none" />
+      <input type="hidden" name="_subject" value="New submission!" />
+
+      <label for="nome">Nome</label>
+      <input id="nome" type="text" name="Nome required">
+
+      <label for="email">Email</label>
+      <input id="email" type="email" name="_replyto" required>
+
+      <label for="mensagem">Mensagem</label>
+      <textarea id="mensagem" name="Mensagem" cols="30" rows="10" required></textarea>
+
+      <input class="contact-form-submit" type="submit" value="Enviar">
+  </form>
+</div>
+
+<script>
+  document.getElementById("contact-link").onclick = toggleForm;
+  document.getElementById("close-form").onclick = toggleForm;
+
+  function toggleForm() {
+    document.getElementById("contact-form").classList.toggle("contact-form-active");
+  };
+</script>
