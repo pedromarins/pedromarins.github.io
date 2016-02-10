@@ -5,9 +5,10 @@ layout: default
 <div class="post">
 
   <header class="post-header">
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }} • Leitura de {{ page.reading }}</p>
+    <p class="post-meta">Leitura de {{ page.reading }}</p>
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-subtitle">{{ page.subtitle }}</p>
+    <p class="post-signature">por {{ page.author }}</p>
   </header>
 
   <article class="post-content">
@@ -15,6 +16,29 @@ layout: default
   </article>
 
   <footer class="post-footer">
+    <p class="post-date">Publicado em 
+    <!-- Tradução da data -->
+    {% assign m = page.date | date: "%-m" %}
+    {{ page.date | date: "%-d" }} de 
+    {% case m %}
+      {% when '1' %}Janeiro
+      {% when '2' %}Fevereiro
+      {% when '3' %}Março
+      {% when '4' %}Abril
+      {% when '5' %}Maio
+      {% when '6' %}Junho
+      {% when '7' %}Julho
+      {% when '8' %}Agosto
+      {% when '9' %}Setembro
+      {% when '10' %}Outubro
+      {% when '11' %}Novembro
+      {% when '12' %}Dezembro
+    {% endcase %} de 
+    {{ page.date | date: "%Y" }}
+    </p>
+
+
+
     <div class="post-share">
       <h3>Compartilhe</h3>
       <a href="https://twitter.com/share" class="post-share-twitter twitter-share-button" data-via="pedromarins" data-lang="pt" data-size="medium">Tweetar</a>
@@ -31,22 +55,7 @@ layout: default
     </div>
 
     <div class="post-newsletter">
-      <h3>Newsletter</h3>
       {% include newsletter.html %}
-    </div>
-
-    <div class="post-comments">
-      <h3>Comentários</h3>
-      <div class="post-comments-disqus" id="disqus_thread"></div>
-      <script type="text/javascript">
-          var disqus_shortname = 'pedromarins';
-
-          (function() {
-              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-              dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-          })();
-      </script>
     </div>
 
   </footer>

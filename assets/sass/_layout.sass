@@ -2,6 +2,10 @@
     -moz-box-sizing: border-box
     box-sizing: border-box
 
+html
+    min-height: 100%
+    width: 100%
+
 body
     font-family: $base-font-family
     border-top: 5px solid $red
@@ -9,6 +13,9 @@ body
     font-size: $base-font-size
     line-height: $base-line-height
     z-index: 0
+    height: 100%
+    position: relative
+    padding: 0 0 4em
 
 li
     list-style: none
@@ -146,14 +153,15 @@ a
 
 .event
     display: inline-block
-    width: 30%
+    vertical-align: top
+    width: 14%
     margin: 0 1% $spacing-unit*1.5
 
     @include media-query($on-tablet)
-        width: 47%
+        width: 30%
 
     @include media-query($on-mobile)
-        width: 97%
+        width: 47%
 
     figure
         margin: 0
@@ -167,10 +175,17 @@ a
         font-weight: 700
 
 .event-img
-    height: 130px
+    height: 120px
     width: 100%
     margin: 0 0 $spacing-unit/2
     text-align: center
+
+    img
+        position: relative
+        top: 50%
+        transform: translateY(-50%)
+        max-width: 100%
+        max-height: 100%
 
 // about ------------------------------------------------------------------------------------
 .eu
@@ -240,8 +255,8 @@ a
         padding: 0 0 0 $spacing-unit*3
     &:before
         content: ""
-        width: 40px
-        height: 40px
+        width: 30px
+        height: 30px
         border-radius: 50%
         border: 1px solid $dark-blue
         background: $red
@@ -253,6 +268,7 @@ a
         color: white
         text-align: center
         line-height: 40px
+        padding: 4px
 
         @include media-query($on-tablet)
             left: 14px
@@ -298,21 +314,81 @@ a
             @include media-query($on-tablet)
                 left: 40px
     &:hover:before
-        transform: scale(1.2)
+        transform: scale(1.3)
+
+
+// timeline-filter ------------------------------------------------------------------------------------
+.timeline-filter
+    text-align: center
+
+.timeline-filter--button
+    border: 3px solid $dark-blue
+    background: $dark-blue
+    border-radius: 4px
+    color: white
+    font-weight: 400
+    font-size: 0.9em
+    display: inline-block
+    padding: 4px 5px
+    cursor: pointer
+    margin: $spacing-unit 4px 0
+    transition: 0.5s all
+    outline: 0
+    &:before
+        content: ""
+        width: 26px
+        height: 26px
+        border-radius: 50%
+        border: 1px solid $dark-blue
+        background: $red
+        z-index: 20
+        transition: 0.8s
+        color: white
+        text-align: center
+        line-height: 26px
+        padding: 3px
+        display: inline-block
+        vertical-align: middle
+        margin: 0 5px 0 0
+
+        @include media-query($on-tablet)
+            left: 14px
+    &:first-child
+        padding-right: 15px
+        &:before
+            background: $dark-blue
+            width: 0
+
+
+.timeline-filter--button-active
+    background: $blue
+    color: $dark-blue
+
 
 // timeline-icons ------------------------------------------------------------------------------------
 .item-project:before
-    content: "p"
+    content: url(../img/drincons/drincons-project.svg)
+.timeline-filter--button-project:before
+    content: url(../img/drincons/drincons-project.svg)
 .item-school:before
-    content: "s"
-.item-life:before
-    content: "l"
+    content: url(../img/drincons/drincons-school.svg)
+.timeline-filter--button-school:before
+    content: url(../img/drincons/drincons-school.svg)
 .item-event:before
-    content: "e"
+    content: url(../img/drincons/drincons-event.svg)
+.timeline-filter--button-event:before
+    content: url(../img/drincons/drincons-event.svg)
 .item-talk:before
-    content: "t"
+    content: url(../img/drincons/drincons-talk.svg)
+.timeline-filter--button-talk:before
+    content: url(../img/drincons/drincons-talk.svg)
 .item-job:before
-    content: "j"
+    content: url(../img/drincons/drincons-job.svg)
+.timeline-filter--button-job:before
+    content: url(../img/drincons/drincons-job.svg)
+
+
+
 
 // post ------------------------------------------------------------------------------------
 .post
@@ -412,10 +488,6 @@ hr
     float: right
     margin: 15px 0 0
 
-// .post-newsletter -----------
-.post-newsletter
-    padding: $spacing-unit 0 $spacing-unit*2
-
 // .post-comments -----------
 .post-comments
     border-top: 3px solid $gray
@@ -427,18 +499,25 @@ hr
 // newsletter ------------------------------------------------------------------------------------
 .newsletter
     margin: $spacing-unit auto
+    border: 2px solid $dark-blue
+    padding: $spacing-unit $spacing-unit*2
+    background: #E2E2E2
+    border-radius: 5px
 
 .newsletter-email
-    width: 100%
+    width: 70%
     margin: 5px 0 $spacing-unit/3
     border: 1px solid $gray-text
     border-radius: 5px
     padding: 12px 20px
     font-size: $base-font-size
     color: $dark-blue
+    outline: none
 
-    &:active
-        border-color: $dark-blue
+    &:focus
+        border: 1px solid $dark-blue
+        box-shadow: 0 0 4px $dark-blue
+        
 
 .newsletter-button
     background: $dark-blue
@@ -446,9 +525,10 @@ hr
     font-size: $base-font-size
     font-weight: 700
     border: none
-    padding: 15px 20px
+    padding: 12px 20px
     border-radius: 5px
     cursor: pointer
+    width: 28%
 
     &:hover
         background: lighten($dark-blue, 5%)
@@ -459,6 +539,9 @@ hr
     background: $dark-blue
     padding: $spacing-unit/2 0
     color: white
+    position: absolute
+    bottom: 0
+    width: 100%
 
 .footer-heading
     display: inline-block

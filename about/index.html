@@ -8,7 +8,7 @@ permalink: /about/
 
 <div class="wrapper content">
 	<div class="timeline">
-		<p class="about-description">Oi, meu nome é Pedro Marins. Esse fanfarrão, posando de sério, nessa foto ai de cima! Tenho 27 anos e moro em Niterói no Rio de Janeiro. Já morei em San Diego, na Califórnia também.</p>
+		<p class="about-description">Oi, meu nome é Pedro Marins. Esse fanfarrão, posando de sério, nessa foto ai de cima! Tenho 28 anos e moro em Niterói no Rio de Janeiro. Já morei em San Diego, na Califórnia também.</p>
 
 		<h1 class="about-heading">"Complexo demais para ser categorizado"</h1>
 
@@ -16,17 +16,28 @@ permalink: /about/
 
 		<p class="about-description">Esta lista tem alguns dos <strong>projetos</strong> que já fiz, lugares onde <strong>trabalhei</strong>, <strong>eventos</strong> que organizei ou participei de alguma forma, as <strong>palestras</strong> que já dei, minhas <strong>atividades acadêmicas</strong> e outras coisas interessantes que aconteceram na minha vida. Essa lista é mais para mim do que para você, já que eu sou péssimo lembrando as datas das coisas e a inter-relação dos fatos! Você pode filtrar os itens clicando nos botões abaixo.</p>
 
-		<!-- <nav style="position: sticky; top: 10px">
-			<button class="filter-timeline" data-target="timeline-item">Todos</button>
-			<button class="filter-timeline" data-target="item-event">Eventos</button>
-			<button class="filter-timeline" data-target="item-talk">Palestras</button>
-			<button class="filter-timeline" data-target="item-project">Projetos</button>
-			<button class="filter-timeline" data-target="item-school">Educação</button>
-			<button class="filter-timeline" data-target="item-job">Trabalho</button>
-			<button class="filter-timeline" data-target="item-life">Vida</button>
-		</nav> -->
+		<nav class="timeline-filter">
+			<button class="timeline-filter--button" data-target="timeline-item">Todos</button>
+			<button class="timeline-filter--button timeline-filter--button-project" data-target="item-project">Projetos</button>
+			<button class="timeline-filter--button timeline-filter--button-event" data-target="item-event">Eventos</button>
+			<button class="timeline-filter--button timeline-filter--button-talk" data-target="item-talk">Palestras</button>
+			<button class="timeline-filter--button timeline-filter--button-job" data-target="item-job">Trabalho</button>
+			<button class="timeline-filter--button timeline-filter--button-school" data-target="item-school">Educação</button>
+		</nav>
 
 		<div class="timelime-content">
+
+<!--  **************************************************** 2016 **************************************************** -->
+			<h2 class="timeline-year">2016</h2>
+			<ul>
+				<li class="timeline-item item-project">
+					<time>Janeiro 2015</time>
+					<h3>Newsletter semanal</h3>
+					<p>Comecei o meu projeto de newsletter semanal para compartilhar informações, curiosidades e links que eu acho interessantes. Estou tendo uma resposta sensacional dos leitores. Se quiser participar, <a href='/newsletter/'><strong>se inscreva</strong></a>.</p>
+				</li>
+			</ul>
+
+<!--  **************************************************** 2015 **************************************************** -->
 			<h2 class="timeline-year">2015</h2>
 			<ul>
 				<li class="timeline-item item-event">
@@ -184,7 +195,7 @@ permalink: /about/
 				<li class="timeline-item item-job">
 					<time>Novembro 2012</time>
 					<h3>HE:labs</h3>
-					<p>Comecei a trabalhar como desenvolvedor front-end developer e community manager e fiquei até junho de 2013</p>
+					<p>Comecei a trabalhar como desenvolvedor front-end e community manager e fiquei até junho de 2013</p>
 				</li>
 				<li class="timeline-item item-event">
 					<time>Agosto 2012</time>
@@ -242,13 +253,13 @@ permalink: /about/
 					<h3>Geeks On Beer - 2° edição</h3>
 					<p>Organização do evento</p>
 				</li>
-				<li class="timeline-item item-project">
+				<li class="timeline-item item-project item-job">
 					<time>Agosto 2011</time>
 					<h3>Sparkit</h3>
 					<p>Fundei um estúdio de software focado no desenvolvimento de MVP's para startups</p>
 				</li>
 				<li class="timeline-item item-event">
-					<time>Julho 2012</time>
+					<time>Julho 2011</time>
 					<h3>Front in Rio</h3>
 					<img src="{{ site.url }}/assets/img/events/frontinrio.png" alt="Logo do Front in Rio">
 					<p>Organização do evento</p>
@@ -466,15 +477,19 @@ permalink: /about/
 </div>
 
 <script>
-	var buttons = document.getElementsByClassName("filter-timeline");
+	var buttons = document.getElementsByClassName("timeline-filter--button");
 	for (i=0; i<buttons.length; i++) {
 		buttons[i].onclick = filterTimeline;
 	}
 
 	function filterTimeline() {
+		for (i=0; i<buttons.length; i++) {
+			buttons[i].classList.remove("timeline-filter--button-active");
+		}
+		this.classList.add("timeline-filter--button-active");
 		var classe = this.dataset.target;
-		var itens = document.getElementsByClassName("timeline-item");
 
+		var itens = document.getElementsByClassName("timeline-item");
 		for (i=0; i<itens.length; i++) {
 			itens[i].style.display = "none";
 			if (itens[i].classList.contains(classe)) {

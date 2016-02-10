@@ -1,16 +1,15 @@
 safe:        false
 baseurl:     /
-url: http://pedromarins.github.io/
 
 name: Pedro Marins
 title: Pedro Marins
-description: front-end developer and events organizer with a passion for teaching and startups
+description: Empreendedor digital e desenvolvedor front-end. Organizador de alguns eventos de tecnologia. Apaixonado por ensinar e viajar.
 domain: pedromarins.com
 commentlinks: true
 
 source:      .
 destination: ./_site
-plugins:     ./_plugins
+plugins_dir: ./_plugins
 
 twitter_username: http://twitter.com/pedromarins
 github_username:  http://github.com/pedromarins
@@ -24,4 +23,4 @@ permalink: /:title/
 markdown: kramdown
 
 sass:
-    sass_dir: assets/css
+    sass_dir: assets/sass

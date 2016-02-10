@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
   <head>
   <meta charset="utf-8">
@@ -7,13 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Sobre - Pedro Marins</title>
-  <meta name="description" content="front-end developer and events organizer with a passion for teaching and startups">
+  <meta name="description" content="Empreendedor digital e desenvolvedor front-end. Organizador de alguns eventos de tecnologia. Apaixonado por ensinar e viajar.">
 
-  <link rel="stylesheet" href="http://pedromarins.github.io//assets/css/main.css">
-  <link rel="canonical" href="http://pedromarins.github.io///about/">
-  <link rel="alternate" type="application/rss+xml" title="Pedro Marins" href="http://pedromarins.github.io///feed.xml" />
-
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="canonical" href="//about/">
+  <link rel="alternate" type="application/rss+xml" title="Pedro Marins" href="//feed.xml" />
 </head>
 
 
@@ -21,7 +19,7 @@
 
     <header class="site-header">
 
-    <a class="site-title" href="http://pedromarins.github.io//">Pedro Marins</a>
+    <a class="site-title" href="/">Pedro Marins</a>
 
     <nav class="site-nav">
         <ul>
@@ -30,6 +28,9 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/blog/">blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/newsletter/">newsletter</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#" id="contact-link">contato</a>
@@ -41,11 +42,11 @@
 
 
     <div class="page-content">
-      <img class="eu" src="http://pedromarins.github.io//assets/img/pedromarins.jpg" alt="Pedro Marins">
+      <img class="eu" src="/assets/img/pedromarins.jpg" alt="Pedro Marins">
 
 <div class="wrapper content">
 	<div class="timeline">
-		<p class="about-description">Oi, meu nome é Pedro Marins. Esse babaca da foto ai de cima! Tenho 27 anos e moro em Niterói no Rio de Janeiro. Já morei em San Diego, na Califórnia também.</p>
+		<p class="about-description">Oi, meu nome é Pedro Marins. Esse fanfarrão, posando de sério, nessa foto ai de cima! Tenho 28 anos e moro em Niterói no Rio de Janeiro. Já morei em San Diego, na Califórnia também.</p>
 
 		<h1 class="about-heading">"Complexo demais para ser categorizado"</h1>
 
@@ -53,17 +54,28 @@
 
 		<p class="about-description">Esta lista tem alguns dos <strong>projetos</strong> que já fiz, lugares onde <strong>trabalhei</strong>, <strong>eventos</strong> que organizei ou participei de alguma forma, as <strong>palestras</strong> que já dei, minhas <strong>atividades acadêmicas</strong> e outras coisas interessantes que aconteceram na minha vida. Essa lista é mais para mim do que para você, já que eu sou péssimo lembrando as datas das coisas e a inter-relação dos fatos! Você pode filtrar os itens clicando nos botões abaixo.</p>
 
-		<nav style="position: sticky; top: 10px">
-			<button class="filter-timeline" data-target="timeline-item">Todos</button>
-			<button class="filter-timeline" data-target="item-life">Vida</button>
-			<button class="filter-timeline" data-target="item-project">Projetos</button>
-			<button class="filter-timeline" data-target="item-job">Trabalho</button>
-			<button class="filter-timeline" data-target="item-school">Educação</button>
-			<button class="filter-timeline" data-target="item-event">Eventos</button>
-			<button class="filter-timeline" data-target="item-talk">Palestras</button>
+		<nav class="timeline-filter">
+			<button class="timeline-filter--button" data-target="timeline-item">Todos</button>
+			<button class="timeline-filter--button timeline-filter--button-project" data-target="item-project">Projetos</button>
+			<button class="timeline-filter--button timeline-filter--button-event" data-target="item-event">Eventos</button>
+			<button class="timeline-filter--button timeline-filter--button-talk" data-target="item-talk">Palestras</button>
+			<button class="timeline-filter--button timeline-filter--button-job" data-target="item-job">Trabalho</button>
+			<button class="timeline-filter--button timeline-filter--button-school" data-target="item-school">Educação</button>
 		</nav>
 
 		<div class="timelime-content">
+
+<!--  **************************************************** 2016 **************************************************** -->
+			<h2 class="timeline-year">2016</h2>
+			<ul>
+				<li class="timeline-item item-project">
+					<time>Janeiro 2015</time>
+					<h3>Newsletter semanal</h3>
+					<p>Comecei o meu projeto de newsletter semanal para compartilhar informações, curiosidades e links que eu acho interessantes. Estou tendo uma resposta sensacional dos leitores. Se quiser participar, <a href='/newsletter/'><strong>se inscreva</strong></a>.</p>
+				</li>
+			</ul>
+
+<!--  **************************************************** 2015 **************************************************** -->
 			<h2 class="timeline-year">2015</h2>
 			<ul>
 				<li class="timeline-item item-event">
@@ -152,7 +164,7 @@
 				<li class="timeline-item item-event">
 					<time>Outubro 2013</time>
 					<h3>Hack & Design Conference</h3>
-					<img src="http://pedromarins.github.io//assets/img/events/hdc.png" alt="Logo do Hack & Design Conference">
+					<img src="/assets/img/events/hdc.png" alt="Logo do Hack & Design Conference">
 					<p>Lider do time organizador do evento</p>
 				</li>
 				<li class="timeline-item item-project">
@@ -168,7 +180,7 @@
 				<li class="timeline-item item-talk">
 					<time>Setembro 2013</time>
 					<h3>Dev Brasil - RioInfo 2013</h3>
-					<img src="http://pedromarins.github.io//assets/img/events/rio-info.png" alt="Logo do Rio Info">
+					<img src="/assets/img/events/rio-info.png" alt="Logo do Rio Info">
 					<p>Palestra: Por que front-end está na moda?</p>
 				</li>
 				<li class="timeline-item item-event">
@@ -204,7 +216,7 @@
 				<li class="timeline-item item-event">
 					<time>Março 2013</time>
 					<h3>Rio.JS Conference</h3>
-					<img src="http://pedromarins.github.io//assets/img/events/riojs.png" alt="Logo do Rio.JS Conference">
+					<img src="/assets/img/events/riojs.png" alt="Logo do Rio.JS Conference">
 					<p>Organização do evento</p>
 				</li>
 				<li class="timeline-item item-talk">
@@ -221,7 +233,7 @@
 				<li class="timeline-item item-job">
 					<time>Novembro 2012</time>
 					<h3>HE:labs</h3>
-					<p>Comecei a trabalhar como desenvolvedor front-end developer e community manager e fiquei até junho de 2013</p>
+					<p>Comecei a trabalhar como desenvolvedor front-end e community manager e fiquei até junho de 2013</p>
 				</li>
 				<li class="timeline-item item-event">
 					<time>Agosto 2012</time>
@@ -279,21 +291,21 @@
 					<h3>Geeks On Beer - 2° edição</h3>
 					<p>Organização do evento</p>
 				</li>
-				<li class="timeline-item item-project">
+				<li class="timeline-item item-project item-job">
 					<time>Agosto 2011</time>
 					<h3>Sparkit</h3>
 					<p>Fundei um estúdio de software focado no desenvolvimento de MVP's para startups</p>
 				</li>
 				<li class="timeline-item item-event">
-					<time>Julho 2012</time>
+					<time>Julho 2011</time>
 					<h3>Front in Rio</h3>
-					<img src="http://pedromarins.github.io//assets/img/events/frontinrio.png" alt="Logo do Front in Rio">
+					<img src="/assets/img/events/frontinrio.png" alt="Logo do Front in Rio">
 					<p>Organização do evento</p>
 				</li>
 				<li class="timeline-item item-event">
 					<time>Junho 2011</time>
 					<h3>Geeks On Beer - 1° edição</h3>
-					<img src="http://pedromarins.github.io//assets/img/events/geeks-on-beer.jpg" alt="Logo do Geeks On Beer">
+					<img src="/assets/img/events/geeks-on-beer.jpg" alt="Logo do Geeks On Beer">
 					<p>Organização do evento</p>
 				</li>
 				<li class="timeline-item item-event">
@@ -345,7 +357,7 @@
 				<li class="timeline-item item-event">
 					<time>Junho 2010</time>
 					<h3>I OpenSpaceRio</h3>
-					<img src="http://pedromarins.github.io//assets/img/events/openspace-rio-logo-azul.png" alt="Logo do Open Space Rio">
+					<img src="/assets/img/events/openspace-rio-logo-azul.png" alt="Logo do Open Space Rio">
 					<p>Organização do evento</p>
 				</li>
 				<li class="timeline-item item-talk">
@@ -503,15 +515,19 @@
 </div>
 
 <script>
-	var buttons = document.getElementsByClassName("filter-timeline");
+	var buttons = document.getElementsByClassName("timeline-filter--button");
 	for (i=0; i<buttons.length; i++) {
 		buttons[i].onclick = filterTimeline;
 	}
 
 	function filterTimeline() {
+		for (i=0; i<buttons.length; i++) {
+			buttons[i].classList.remove("timeline-filter--button-active");
+		}
+		this.classList.add("timeline-filter--button-active");
 		var classe = this.dataset.target;
-		var itens = document.getElementsByClassName("timeline-item");
 
+		var itens = document.getElementsByClassName("timeline-item");
 		for (i=0; i<itens.length; i++) {
 			itens[i].style.display = "none";
 			if (itens[i].classList.contains(classe)) {
@@ -542,13 +558,13 @@
         <a href="">Linkedin</a>
       </li>
       <li>
-        <a href="http://pedromarins.github.io///feed.xml">Feed/RSS</a>
+        <a href="//feed.xml">Feed/RSS</a>
       </li>
     </ul>
 
     <p class="copyleft">
       <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/br/">
-        <img src="http://pedromarins.github.io//assets/img/cc-by-nc-sa_icon.svg" alt="Creative Commons - By Nc Sa">
+        <img src="/assets/img/cc-by-nc-sa_icon.svg" alt="Creative Commons - By Nc Sa">
       </a>
     </p>
 
