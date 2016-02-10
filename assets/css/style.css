@@ -4,8 +4,9 @@
   box-sizing: border-box; }
 
 html {
-  min-height: 100%;
-  width: 100%; }
+  height: 100%;
+  width: 100%;
+  position: relative; }
 
 body {
   font-family: "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -14,17 +15,15 @@ body {
   font-size: 16px;
   line-height: 1.5;
   z-index: 0;
-  height: 100%;
+  min-height: 100%;
   position: relative;
   padding: 0 0 4em; }
 
 li {
   list-style: none; }
 
-a {
-  text-decoration: none; }
-  a:hover {
-    text-decoration: underline; }
+a:visited {
+  color: #324150; }
 
 .wrapper {
   max-width: -webkit-calc(1000px - (30px * 2));
@@ -91,7 +90,10 @@ a {
   position: relative; }
   .site-header a {
     color: white;
-    border: none; }
+    border: none;
+    text-decoration: none; }
+    .site-header a:hover {
+      text-decoration: underline; }
 
 .site-title {
   display: inline-block;
@@ -131,9 +133,10 @@ a {
     padding: 30px 0; }
 
 .post-list-link {
-  color: black; }
+  color: black;
+  text-decoration: none; }
   .post-list-link:hover {
-    text-decoration: none; }
+    text-decoration: underline; }
 
 .post-list-title {
   margin: 0; }
@@ -516,12 +519,25 @@ hr {
   .newsletter-button:hover {
     background: #3c4e60; }
 
+.now-title {
+  font-size: 4em;
+  margin-top: 0; }
+
+.now-list {
+  margin: 0 0 2em; }
+
+.now-item {
+  list-style: disc;
+  margin: 0 0 1em; }
+
 .site-footer {
   background: #324150;
   padding: 15px 0;
   color: white;
   position: absolute;
   bottom: 0;
+  right: 0;
+  left: 0;
   width: 100%; }
 
 .footer-heading {
