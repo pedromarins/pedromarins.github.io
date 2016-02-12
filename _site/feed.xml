@@ -5,50 +5,49 @@
     <description>Empreendedor digital e desenvolvedor front-end. Organizador de alguns eventos de tecnologia. Apaixonado por ensinar e viajar.</description>
     <link>//</link>
     <atom:link href="//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 10 Feb 2016 15:41:04 -0200</pubDate>
-    <lastBuildDate>Wed, 10 Feb 2016 15:41:04 -0200</lastBuildDate>
+    <pubDate>Fri, 12 Feb 2016 11:30:24 -0200</pubDate>
+    <lastBuildDate>Fri, 12 Feb 2016 11:30:24 -0200</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
-        <title>O que eu faria hoje se tivesse que recomeçar a carreira</title>
-        <description>&lt;p&gt;Antes de mais nada, quero te contar porque estou fazendo esse guia. Dou aula de desenvolvimento front-end na Caelum a quase dois anos. Já foram mais de 20 turmas, onde ensinei HTML, CSS e JavaScript para mais de 200 pessoas. Em todas as turmas, sem exceção, surgem as perguntas clássicas: quanto cobrar por um site, ou como conseguir um emprego.&lt;!--more--&gt;&lt;/p&gt;
+        <title>Como se envolver com a comunidade de desenvolvimento do Rio de Janeiro</title>
+        <description>&lt;p&gt;Umas das grandes dúvidas de quem está entrando no mundo do desenvolvimento é por onde começar. Onde encontrar as pessoas, onde conhecer quem sabe mais que eu para me ajudar no processo de aprendizado, onde consultar para descobrir sobre novas tecnologias, quem seguir para ficar por dentro das novidades, etc. Já ouvi perguntas desse tipo dezenas de vezes nos cursos que dou ou em eventos que organizo.&lt;/p&gt;
 
-&lt;p&gt;Estou criando esse guia para compartilhar a minha resposta para essas fatídicas perguntas, me botando no papel de quem está começando. Não tenho a resposta para tudo, mas depois de quase 10 anos no mercado consigo ver claramente quais foram as boas decisões que eu tomei que geraram um grande impacto na minha carreira. Pena que só tenho esse conhecimento agora. Felizmente, para você que está começando, está ai o meu passo a passo!&lt;/p&gt;
-
-&lt;p&gt;Antes de mais nada, você precisa de experiência. A melhor forma de aprender é fazendo. &lt;strong&gt;Inquestionável.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;comearia-fazendo-um-site-de-graa&quot;&gt;Começaria fazendo um site de graça&lt;/h2&gt;
-
-&lt;p&gt;Depois de fazer o primeiro, você agora já sabe alguma coisa. Esse é o momento de entrar em um curso. Dado o conhecimento adquirido, você vai absorver muito mais do material que está estudando. Vai conseguir navegar por todas as nuances do que está sendo explanado e realmente absorver o conteúdo&lt;/p&gt;
+&lt;p&gt;Para responder essas perguntas, criei esse &lt;strong&gt;guia de comunidades&lt;/strong&gt; do Rio! Ai abaixo estão referências para grupos de desenvolvedores front-end, back-end, mobile e devops.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;tentaria-vender-o-primeiro&quot;&gt;tentaria vender o primeiro&lt;/h2&gt;
+&lt;h1 id=&quot;front-end&quot;&gt;Front-end&lt;/h1&gt;
+&lt;p&gt;texto qualquer&lt;/p&gt;
 
-&lt;h2 id=&quot;tentaria-vender-o-segundo&quot;&gt;tentaria vender o segundo&lt;/h2&gt;
+&lt;h2 id=&quot;eventos&quot;&gt;Eventos&lt;/h2&gt;
+&lt;p&gt;texto qualquer&lt;/p&gt;
 
-&lt;hr /&gt;
-
-&lt;p&gt;Agora que já sei algumas coisas, que já estudei muitos itens específicos e que já tenho uma linha clara do que devo fazer para criar um website, tenho duas claras opções: procurar um emprego ou continuar como freelancer. Essas opções básicas abrangem basicamente a vida de um desenvolvedor. Ou ele vai trabalhar para alguma, ou ele vai trabalhar por conta própria para vários clientes. As duas abordagens tem seus pontos positivos e negativos. O emprego trás a estabilidade e a vida freelancer trás mais liberdade. A decisão é sua, mas recomendo que teste as duas.&lt;/p&gt;
-
-&lt;p&gt;Em qualquer uma das opções é necessário que você adquira mais um conhecimento: vendas. Você precisa aprender a se vender, tanto se for procurar um emprego, tanto para sua prestação de serviços como freelancer.&lt;/p&gt;
-
-&lt;h2 id=&quot;procuro-um-emprego&quot;&gt;Procuro um emprego&lt;/h2&gt;
-&lt;p&gt;Ainda não sou um experiênte desenvolvedor. Talvez consiga uma vaga de estagiário, ou desenvolvedor junior.&lt;/p&gt;
-
-&lt;h2 id=&quot;continuo-como-freelancer&quot;&gt;Continuo como freelancer&lt;/h2&gt;
+&lt;h2 id=&quot;grupos&quot;&gt;Grupos&lt;/h2&gt;
+&lt;p&gt;texto qualquer&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;O que fazer para adquirir ainda mais conhecimento:&lt;/p&gt;
+&lt;h1 id=&quot;back-end&quot;&gt;Back-end&lt;/h1&gt;
 
-&lt;h2 id=&quot;participar-de-eventos&quot;&gt;Participar de eventos&lt;/h2&gt;
+&lt;hr /&gt;
 
-&lt;h2 id=&quot;open-source&quot;&gt;Open Source&lt;/h2&gt;
+&lt;h1 id=&quot;mobile&quot;&gt;Mobile&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;devops&quot;&gt;DevOps&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Se faltou algum na lista, me avisa lá no &lt;a href=&quot;http://twitter.com/pedromarins&quot;&gt;twitter&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;Recomendo que você salve essa página nos seus favoritos. Vou atualizá-la constantemente, e você pode voltar periódicamente para ter certeza que não está perdendo nada.&lt;/p&gt;
+
 </description>
-        <pubDate>Tue, 23 Jun 2015 14:05:38 -0300</pubDate>
-        <link>//guia-para-desenvolvedores-iniciantes/</link>
-        <guid isPermaLink="true">//guia-para-desenvolvedores-iniciantes/</guid>
+        <pubDate>Thu, 11 Feb 2016 21:03:38 -0200</pubDate>
+        <link>//como-se-envolver-com-a-comunidade-de-desenvolvimento-do-rio/</link>
+        <guid isPermaLink="true">//como-se-envolver-com-a-comunidade-de-desenvolvimento-do-rio/</guid>
         
         
         <category>jekyll</category>

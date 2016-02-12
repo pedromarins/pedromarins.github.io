@@ -7,8 +7,7 @@ date: 2015-06-23 17:05:38
 categories: jekyll update
 reading: 5 min
 author: Pedro Marins
-published: true
-comments: true
+published: false
 ---
 
 Antes de mais nada, quero te contar porque estou fazendo esse guia. Dou aula de desenvolvimento front-end na Caelum a quase dois anos. Já foram mais de 20 turmas, onde ensinei HTML, CSS e JavaScript para mais de 200 pessoas. Em todas as turmas, sem exceção, surgem as perguntas clássicas: quanto cobrar por um site, ou como conseguir um emprego.<!--more-->

@@ -440,6 +440,12 @@ a:visited {
       content: '"'; }
     .post-content blockquote p:after {
       content: '"'; }
+.post-content h1 {
+  font-size: 1.8em; }
+.post-content h2 {
+  font-size: 1.5em; }
+.post-content h3 {
+  font-size: 1.2em; }
 
 hr {
   border: none;
