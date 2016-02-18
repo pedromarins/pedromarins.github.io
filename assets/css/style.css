@@ -22,8 +22,10 @@ body {
 li {
   list-style: none; }
 
-a:visited {
+a {
   color: #324150; }
+  a:visited {
+    color: #324150; }
 
 .wrapper {
   max-width: -webkit-calc(1000px - (30px * 2));
