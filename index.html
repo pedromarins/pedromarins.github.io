@@ -10,22 +10,7 @@ title: Home
 		<p>{{ site.description }}ai ai ai</p>
 	</div>
 
-	<nav class="header--nav">
-		<ul class="header--list">
-			<li class="header--item">
-				<a href="/about" class="header--link">Sobre</a>
-			</li>
-			<li class="header--item">
-				<a href="/blog" class="header--link">Blog</a>
-			</li>
-			<li class="header--item">
-				<a href="/contato" class="header--link">Contato</a>
-			</li>
-			<li class="header--item">
-				<a href="/newsletter" class="header--link header--link-newsletter">Assine a Newsletter</a>
-			</li>
-		</ul>
-	</nav>
+	{% include header.html %}
 </header>
 
 <section class="home-about">
@@ -50,7 +35,7 @@ title: Home
 		{% endfor %}
 	</ul>
 
-	<a href="/blog/" class="headlines-archive">Veja todos os artigos</a>
+	<a href="/blog/" class="headlines-archive"><span>Veja todos os artigos</span></a>
 </section>
 
 <section class="now">

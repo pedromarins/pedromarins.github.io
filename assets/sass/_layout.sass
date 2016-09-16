@@ -17,7 +17,7 @@ body
     z-index: 0
     min-height: 100%
     position: relative
-    padding: 0 0 4em
+    padding: 0
     color: $dark-blue
 
 li
@@ -85,7 +85,7 @@ a
 
 
 .page-content
-    padding-bottom: 60px
+
     
 // ------------------------------------------------------------------------------------ header-nav
 .header--nav
@@ -101,6 +101,13 @@ a
     display: inline-block
     width: 25%
     margin: 0 -4px 0 0
+    text-align: center
+    border-left: 1px solid #efefef
+    
+    @include media-query($on-tablet)
+        width: 100%
+        border-top: 1px solid #efefef
+        border-left: none
 
 .header--link
     display: inline-block
@@ -143,6 +150,16 @@ a
     cursor: pointer
     display: inline-block
     text-decoration: none
+    position: relative
+    
+    &:after
+        content: url(../img/arrow.svg)
+        position: absolute
+        right: 12px
+        top: 2px
+        width: 20px
+        height: 20px
+        display: inline-block
 
 
 // ------------------------------------------------------------------------------------ site-header
@@ -567,57 +584,7 @@ hr
     padding: $spacing-unit 0 $spacing-unit*2
 
 .post-comments-disqus
-    margin: 0 0 $spacing-unit*3
-
-
-// ------------------------------------------------------------------------------------ site-footer
-.site-footer
-    background: $dark-blue
-    padding: $spacing-unit/2 0
-    color: white
-    position: absolute
-    bottom: 0
-    right: 0
-    left: 0
-    width: 100%
-
-    @include media-query($on-tablet)
-        font-size: 0.9em
-
-.footer-heading
-    display: inline-block
-
-.social-media-list
-    display: inline-block
-    padding: 0
-    @include media-query($on-mobile)
-        width: 100%
-        text-align: center
-    
-    li
-        display: inline-block
-        &:before
-            content: " • "
-        @include media-query($on-mobile)
-            &:last-child
-                &::after
-                    content: " • "
-    a
-        color: white
-
-.copyleft
-    position: absolute
-    right: 0
-    top: 0
-    text-align: right
-
-    @include media-query($on-tablet)
-        right: 15px
-
-        img
-            width: 80%
-            margin-top: 5px
-        
+    margin: 0 0 $spacing-unit*3        
 
 // ------------------------------------------------------------------------------------ contact-form
 .contact-helper

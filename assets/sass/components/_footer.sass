@@ -1,0 +1,39 @@
+// ------------------------------------------------------------------------------------ site-footer
+.footer
+    background: $dark-blue
+    margin: 0
+    font-size: 0.8em
+    padding: 2em 0
+    text-align: center
+
+.footer-content
+    width: 70%
+    margin: 0 auto
+    
+    @include media-query($on-tablet)
+        width: 90%
+
+.footer-heading
+    display: inline-block
+    color: $gray-text
+    margin: 0
+    
+    strong
+        color: white
+        font-weight: 700
+        text-transform: uppercase
+
+.footer-social
+    padding: 0 0 1em
+
+.footer-social-item
+    display: inline-block
+    margin: 0 0 0 1em
+    
+    &:first-child
+        margin: 0
+
+.footer-social-link
+    color: $blue
+    font-weight: 700
+    text-decoration: none
