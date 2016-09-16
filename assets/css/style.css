@@ -10,14 +10,13 @@ html {
 body {
   font-family: "Raleway", sans-serif;
   font-weight: 300;
-  border-top: 5px solid #D83A4E;
   margin: 0;
   font-size: 16px;
   line-height: 1.5;
   z-index: 0;
   min-height: 100%;
   position: relative;
-  padding: 0;
+  padding: 0 0 130px;
   color: #333B46; }
 
 li {
@@ -184,40 +183,6 @@ a {
 .nav-link {
   color: white;
   cursor: pointer; }
-
-.post-list {
-  padding: 0;
-  margin: 60px; }
-  @media screen and (max-width: 720px) {
-    .post-list {
-      margin: 30px 0;
-      font-size: 0.9em; } }
-  @media screen and (max-width: 600px) {
-    .post-list {
-      font-size: 0.9em; } }
-
-.post-list-item {
-  padding: 15px 0; }
-  .post-list-item:first-child {
-    border-top: 1px solid #D9D9D9;
-    border-bottom: 1px solid #D9D9D9;
-    padding: 30px 0; }
-
-.post-list-link {
-  color: black;
-  text-decoration: none; }
-  .post-list-link:hover {
-    text-decoration: underline; }
-
-.post-list-title {
-  margin: 0; }
-
-.post-list-one_line {
-  margin: 0; }
-
-.post-list-meta {
-  color: #B3B3B3;
-  font-size: 14px; }
 
 .events-list {
   padding: 0;
@@ -457,112 +422,6 @@ a {
 .timeline-filter--button-job:before {
   content: url(../img/drincons/drincons-job.svg); }
 
-.post {
-  background: white;
-  max-width: 700px;
-  margin: 0 auto;
-  color: #333B46; }
-  @media screen and (max-width: 720px) {
-    .post {
-      padding: 0; } }
-
-.post-meta {
-  text-align: right;
-  margin: 45px 0 0;
-  font-size: 0.9em; }
-
-.post-header {
-  text-align: center; }
-
-.post-title {
-  font-size: 60px;
-  font-weight: 700;
-  margin: 75px 0 30px;
-  line-height: 1; }
-
-.post-subtitle {
-  font-weight: 300;
-  font-style: normal;
-  font-size: 32px;
-  margin: 0 0 90px; }
-
-.post-content p {
-  margin-bottom: 30px;
-  word-wrap: break-word;
-  font-size: 22px;
-  line-height: 1.5; }
-.post-content pre {
-  background: #485464;
-  border-radius: 5px;
-  border: 1px solid #333B46;
-  width: 100%;
-  color: white;
-  box-shadow: inset 0 0 40px #76869c;
-  padding: 30px; }
-.post-content blockquote {
-  margin: 0;
-  text-align: center; }
-  .post-content blockquote p {
-    font-size: 2em;
-    letter-spacing: 0.01em;
-    line-height: 1.4;
-    font-style: italic; }
-    .post-content blockquote p:before {
-      content: '"'; }
-    .post-content blockquote p:after {
-      content: '"'; }
-.post-content h1 {
-  font-size: 1.8em; }
-.post-content h2 {
-  font-size: 1.5em; }
-.post-content h3 {
-  font-size: 1.2em; }
-
-hr {
-  border: none;
-  border-top: 10px solid #333B46;
-  border-bottom: 10px solid #85FFF1;
-  height: 0;
-  margin: 60px 0; }
-
-.post-share {
-  border-top: 3px solid #D9D9D9;
-  padding: 30px 0 60px;
-  margin: 90px 0 0; }
-
-.post-share-twitter {
-  margin: 0 0 0 30px; }
-
-.post-share-facebook {
-  margin: 0 0 0 30px;
-  top: -4px; }
-
-.post-author {
-  border-top: 3px solid #D9D9D9;
-  border-bottom: 3px solid #D9D9D9;
-  padding: 30px 0; }
-
-.post-author-img {
-  border-radius: 50%;
-  vertical-align: middle;
-  margin: 0 15px 0 0; }
-
-.post-author-name {
-  font-size: 18px;
-  vertical-align: middle;
-  display: inline-block; }
-
-.post-author-follow {
-  float: right;
-  margin: 15px 0 0; }
-
-.post-comments {
-  border-top: 3px solid #D9D9D9;
-  padding: 30px 0 60px; }
-
-.post-comments-disqus {
-  margin: 0 0 90px; }
-
 .contact-helper {
   display: none; }
   .contact-helper:checked + .contact-form {
@@ -713,6 +572,11 @@ hr {
 .now-list--travel:before {
   content: url(../img/drincons/drincons-home-travel.svg); }
 
+.headlines-page {
+  background: #F3F3F4; }
+  .headlines-page .headlines {
+    border-bottom: none; }
+
 .headlines {
   padding: 5em 0 0;
   border-bottom: 5px solid #85FFF1;
@@ -789,6 +653,10 @@ hr {
       height: 20px;
       display: inline-block; }
 
+.newsletter-page {
+  background: #F3F3F4;
+  height: 100%; }
+
 .newsletter {
   padding: 5em 0;
   background: #F3F3F4;
@@ -847,12 +715,121 @@ hr {
     .newsletter-button {
       width: 100%; } }
 
+.post {
+  background: white;
+  max-width: 700px;
+  margin: 0 auto;
+  color: #333B46; }
+  @media screen and (max-width: 720px) {
+    .post {
+      padding: 0; } }
+
+.post-meta {
+  text-align: right;
+  margin: 45px 0 0;
+  font-size: 0.9em; }
+
+.post-header {
+  text-align: center; }
+
+.post-title {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 75px 0 30px;
+  line-height: 1; }
+
+.post-subtitle {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 32px;
+  margin: 0 0 90px; }
+
+.post-content p {
+  margin-bottom: 30px;
+  word-wrap: break-word;
+  font-size: 22px;
+  line-height: 1.5; }
+.post-content pre {
+  background: #485464;
+  border-radius: 5px;
+  border: 1px solid #333B46;
+  width: 100%;
+  color: white;
+  box-shadow: inset 0 0 40px #76869c;
+  padding: 30px; }
+.post-content blockquote {
+  margin: 0;
+  text-align: center; }
+  .post-content blockquote p {
+    font-size: 2em;
+    letter-spacing: 0.01em;
+    line-height: 1.4;
+    font-style: italic; }
+    .post-content blockquote p:before {
+      content: '"'; }
+    .post-content blockquote p:after {
+      content: '"'; }
+.post-content h1 {
+  font-size: 1.8em; }
+.post-content h2 {
+  font-size: 1.5em; }
+.post-content h3 {
+  font-size: 1.2em; }
+
+hr {
+  border: none;
+  border-top: 10px solid #333B46;
+  border-bottom: 10px solid #85FFF1;
+  height: 0;
+  margin: 60px 0; }
+
+.post-share {
+  border-top: 3px solid #D9D9D9;
+  padding: 30px 0 60px;
+  margin: 90px 0 0; }
+
+.post-share-twitter {
+  margin: 0 0 0 30px; }
+
+.post-share-facebook {
+  margin: 0 0 0 30px;
+  top: -4px; }
+
+.post-author {
+  border-top: 3px solid #D9D9D9;
+  padding: 30px 0; }
+
+.post-author-img {
+  border-radius: 50%;
+  vertical-align: middle;
+  margin: 0 15px 0 0; }
+
+.post-author-name {
+  font-size: 18px;
+  vertical-align: middle;
+  display: inline-block; }
+
+.post-author-follow {
+  float: right;
+  margin: 15px 0 0; }
+
+.post-comments {
+  border-top: 3px solid #D9D9D9;
+  padding: 30px 0 60px; }
+
+.post-comments-disqus {
+  margin: 0 0 90px; }
+
 .footer {
   background: #333B46;
   margin: 0;
   font-size: 0.8em;
   padding: 2em 0;
-  text-align: center; }
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 130px; }
 
 .footer-content {
   width: 70%;

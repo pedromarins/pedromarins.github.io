@@ -1,24 +1,22 @@
 ---
-layout: default
+layout: blog
 alias: blog
 title: Blog - Pedro Marins
 permalink: /blog/
 ---
-<div class="wrapper content">
-	<div class="post-headlines">
-		<h1 class="box-heading">Blog</h1>
-		<p class="box-description">Conteúdo <strong>técnico</strong>, <strong>empreendedorismo</strong> e outras <strong>aleatoriedades</strong> sobre as quais eu tenho algo para contar.</p>
+<section class="headlines">
+	<h1 class="headlines-title">Meu Blog</h1>
+	<p class="headlines-text">Tudo sobre a vida de freelancer, desenvolvedor e empreendedor. <br> Com outras aleatoriedades sobre as quais eu tenho algo para falar.</p>
 
-		<ul class="post-list">
-			{% for post in site.posts %}
-			<li class="post-list-item">
-				<span class="post-list-meta">{{ post.date | date: "%B %Y" }}</span>
-				<a class="post-list-link" href="{{ post.url | prepend: site.url }}">
-					<h2 class="post-list-title">{{ post.title }}</h2>
-					<p class="post-list-one_line">{{ post.one_line }}</p>
-				</a>
-			</li>
-			{% endfor %}
-		</ul>
-	</div>
-</div>
+	<ul class="headlines-list">
+		{% for post in site.posts %}
+		<li class="headlines-list-item">
+			<a class="headlines-list-link" href="{{ post.url | prepend: site.url }}">
+				<h2 class="headlines-list-title">{{ post.title }}</h2>
+				<button class="headlines-list-button">Leia o artigo completo</button>
+				<span class="headlines-list-meta">{{ post.date | date: "%B %Y" }}</span>
+			</a>
+		</li>
+		{% endfor %}
+	</ul>
+</section>
