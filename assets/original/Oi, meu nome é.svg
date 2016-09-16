@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="485 4309 676 68">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3a4350;
+        font-size: 18px;
+        font-family: Raleway-Regular, Raleway;
+      }
+
+      .cls-2 {
+        font-family: Raleway-Bold, Raleway;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text id="Oi_meu_nome_é_" data-name="Oi, meu nome é " class="cls-1" transform="translate(485 4309)"><tspan x="86.414" y="17">Toda sexta são </tspan><tspan class="cls-2" y="17">5 pontos</tspan><tspan y="17" xml:space="preserve"> para melhorar o seu fim de semana. </tspan><tspan x="215.87" y="41">Sem span, só conteúdo</tspan><tspan class="cls-2" y="41" xml:space="preserve"> foda!</tspan></text>
+</svg>

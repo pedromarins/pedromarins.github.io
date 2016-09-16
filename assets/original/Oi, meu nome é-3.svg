@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="479 1033 688 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3a4350;
+        font-size: 22px;
+        font-family: Raleway-Regular, Raleway;
+      }
+
+      .cls-2 {
+        font-family: Raleway-Bold, Raleway;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text id="Oi_meu_nome_é_" data-name="Oi, meu nome é " class="cls-1" transform="translate(479 1033)"><tspan x="2.725" y="21">Meu nome é </tspan><tspan class="cls-2" y="21">Pedro Marins.</tspan><tspan y="21" xml:space="preserve"> Esse fanfarrão, posando de sério, nessa </tspan><tspan x="4.375" y="51">foto ai de cima! Tenho 28 anos e moro em Niterói no Rio de Janeiro. </tspan><tspan x="110.767" y="81">Já morei em San Diego, na Califórnia também.</tspan></text>
+</svg>

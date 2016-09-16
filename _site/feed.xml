@@ -5,56 +5,62 @@
     <description>Empreendedor digital e desenvolvedor front-end. Organizador de alguns eventos de tecnologia. Apaixonado por ensinar e viajar.</description>
     <link>//</link>
     <atom:link href="//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 17 Feb 2016 13:42:26 -0200</pubDate>
-    <lastBuildDate>Wed, 17 Feb 2016 13:42:26 -0200</lastBuildDate>
-    <generator>Jekyll v3.0.1</generator>
+    <pubDate>Fri, 16 Sep 2016 00:43:07 -0300</pubDate>
+    <lastBuildDate>Fri, 16 Sep 2016 00:43:07 -0300</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>Como se envolver com a comunidade de desenvolvimento do Rio de Janeiro</title>
-        <description>&lt;p&gt;Umas das grandes dúvidas de quem está entrando no mundo do desenvolvimento é por onde começar. Onde encontrar as pessoas, onde conhecer quem sabe mais para ter ajudar no processo de aprendizado, onde consultar para descobrir sobre novas tecnologias, quem seguir para ficar por dentro das novidades, etc. Já ouvi perguntas desse tipo dezenas de vezes nos cursos que dou ou em eventos que organizo.&lt;/p&gt;
+        <description>&lt;p&gt;Deixa eu te contar uma coisa. Basicamente, tudo que tenho hoje na minha carreira profissional é devido à comunidade de desenvolvimento do Rio de Janeiro. As últimas oportunidades de emprego, a maioria dos projetos de consultoria, grande parte os projetos de freelancer, etc. Quanto mais me aproximo das comunidades, mais me beneficio. Sempre.&lt;/p&gt;
 
-&lt;p&gt;Para responder essas perguntas, criei esse &lt;strong&gt;guia de comunidades&lt;/strong&gt; do Rio! Ai abaixo estão referências para grupos de desenvolvedores front-end, back-end, mobile, devops e CMS’s. Comecei essa lista com as comunidades que conheco e frequento, ou já frequentei!&lt;/p&gt;
+&lt;p&gt;Quando organizo eventos, compartilho conhecimento ou crio projetos open source, meu objetivo é cada vez mais aumentar essa rede ao máximo. Assim como eu me beneficio participando das comunidades, essa relação é mútua. O ganha-ganha é real. Então, aumentar e fortalecer essa rede só me trás benefícios, assim como trás benefícios para todo mundo que participa.&lt;/p&gt;
+
+&lt;p&gt;E tem mais uma coisa que sempre foi destaque para mim. Participar de uma comunidade de desenvolvimento, palestrando, trocar ideias, organizando eventos ou interagindo, me deu a oportunidade de conhecer outros modelos mentais, expandindo o meu. Grandes desenvolvedores tem modelos mentais incríveis. A forma como as pessoas que eu admiro apresentam ou resolvem um problema tem um grande potencial de abalar tudo o que eu penso. Em dezenas desses encontros tive que passar horas refletindo para poder absorver tudo que foi falado.&lt;/p&gt;
+
+&lt;p&gt;Mas, umas das grandes dúvidas de quem está entrando no mundo do desenvolvimento é: por onde começar? Onde encontrar as pessoas, onde conhecer quem sabe mais para ter ajudar no processo de aprendizado, onde consultar para descobrir sobre novas tecnologias, quem seguir para ficar por dentro das novidades, onde compartilhar o que eu sei e o que estou aprendendo para contribuir com essa rede, etc. Já ouvi perguntas desse tipo dezenas de vezes nos cursos que dou ou em eventos que organizo.&lt;/p&gt;
+
+&lt;p&gt;Para responder essas perguntas, criei esse &lt;strong&gt;guia de comunidades de desenvolvimento&lt;/strong&gt; do Rio! Ai abaixo estão referências para grupos de desenvolvedores front-end, back-end, mobile, devops e CMS’s. Comecei essa lista com as comunidades que conheco e frequento, ou já frequentei!&lt;/p&gt;
+
+&lt;p&gt;Se faltou algum na lista, me avisa lá no &lt;a href=&quot;http://twitter.com/pedromarins&quot;&gt;twitter&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;Recomendo que você salve essa página nos seus favoritos. Vou atualizá-la constantemente, e você pode voltar periódicamente para ter certeza que não está perdendo nada.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h1 id=&quot;front-end&quot;&gt;Front-end&lt;/h1&gt;
+&lt;p&gt;#Front-end&lt;/p&gt;
 
-&lt;h2 id=&quot;js&quot;&gt;JS&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.facebook.com/groups/riojs/&quot;&gt;RioJS&lt;/a&gt; no Facebook&lt;/p&gt;
+&lt;p&gt;##JS
+&lt;a href=&quot;https://www.facebook.com/groups/riojs/&quot;&gt;RioJS&lt;/a&gt; no Facebook&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.facebook.com/groups/1495763027368240/&quot;&gt;Niterói.JS&lt;/a&gt; no Facebook&lt;/p&gt;
 
-&lt;h2 id=&quot;angular&quot;&gt;Angular&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.meetup.com/pt-BR/angularjsrio/&quot;&gt;AngularJS Rio de Janeiro&lt;/a&gt; no Meetup&lt;/p&gt;
+&lt;p&gt;##Angular
+&lt;a href=&quot;http://www.meetup.com/pt-BR/angularjsrio/&quot;&gt;AngularJS Rio de Janeiro&lt;/a&gt; no Meetup&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h1 id=&quot;back-end&quot;&gt;Back-end&lt;/h1&gt;
+&lt;p&gt;#Back-end&lt;/p&gt;
 
-&lt;h2 id=&quot;python&quot;&gt;Python&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.facebook.com/pythonrio&quot;&gt;PythonRio&lt;/a&gt; no Facebook&lt;/p&gt;
+&lt;p&gt;##Python
+&lt;a href=&quot;https://www.facebook.com/pythonrio&quot;&gt;PythonRio&lt;/a&gt; no Facebook&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.meetup.com/pt-BR/Python-Rio/&quot;&gt;Python Rio&lt;/a&gt; no Meetup&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.meetup.com/pt-BR/Meetup-PyLadies-Rio-de-Janeiro/&quot;&gt;PyLadies Rio de Janeiro&lt;/a&gt; no Meetup&lt;/p&gt;
 
-&lt;h2 id=&quot;ruby&quot;&gt;Ruby&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.facebook.com/groups/rubyonrio&quot;&gt;RubyOnRio&lt;/a&gt; no Facebook&lt;/p&gt;
+&lt;p&gt;##Ruby
+&lt;a href=&quot;https://www.facebook.com/groups/rubyonrio&quot;&gt;RubyOnRio&lt;/a&gt; no Facebook&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://groups.google.com/forum/#!forum/rubyonrio&quot;&gt;RubyOnRio&lt;/a&gt; no Google Groups&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;&quot;&gt;RubyRio&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;##Node
+&lt;a href=&quot;http://www.meetup.com/pt-BR/NodeBR-Rio-de-Janeiro/&quot;&gt;NodeBR Rio de Janeiro&lt;/a&gt; no Meetup&lt;/p&gt;
 
-&lt;h2 id=&quot;go&quot;&gt;Go&lt;/h2&gt;
+&lt;p&gt;##Meteor
+&lt;a href=&quot;http://www.meetup.com/pt-BR/Meteor-Rio-de-Janeiro/&quot;&gt;Meteor Rio de Janeiro&lt;/a&gt; no Meetup&lt;/p&gt;
 
-&lt;h2 id=&quot;node&quot;&gt;Node&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.meetup.com/pt-BR/NodeBR-Rio-de-Janeiro/&quot;&gt;NodeBR Rio de Janeiro&lt;/a&gt; no Meetup&lt;/p&gt;
-
-&lt;h2 id=&quot;meteor&quot;&gt;Meteor&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.meetup.com/pt-BR/Meteor-Rio-de-Janeiro/&quot;&gt;Meteor Rio de Janeiro&lt;/a&gt; no Meetup&lt;/p&gt;
-
-&lt;h2 id=&quot;php&quot;&gt;PHP&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;phprio.org&quot;&gt;PHP Rio&lt;/a&gt; site&lt;/p&gt;
+&lt;p&gt;##PHP
+&lt;a href=&quot;phprio.org&quot;&gt;PHP Rio&lt;/a&gt; site&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;twitter.com/phprio&quot;&gt;PHP Rio&lt;/a&gt; twitter&lt;/p&gt;
 
@@ -64,35 +70,35 @@
 
 &lt;hr /&gt;
 
-&lt;h1 id=&quot;mobile&quot;&gt;Mobile&lt;/h1&gt;
+&lt;p&gt;#Mobile&lt;/p&gt;
 
-&lt;h2 id=&quot;ionic&quot;&gt;Ionic&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.meetup.com/pt-BR/Ionic-Rio-de-Janeiro/&quot;&gt;Ionic Rio de Janeiro&lt;/a&gt; no Meetup&lt;/p&gt;
+&lt;p&gt;##Ionic
+&lt;a href=&quot;http://www.meetup.com/pt-BR/Ionic-Rio-de-Janeiro/&quot;&gt;Ionic Rio de Janeiro&lt;/a&gt; no Meetup&lt;/p&gt;
 
-&lt;h2 id=&quot;android&quot;&gt;Android&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.facebook.com/groups/AndroidDevRio/&quot;&gt;Android Dev Rio&lt;/a&gt; no Facebook&lt;/p&gt;
+&lt;p&gt;##Android
+&lt;a href=&quot;https://www.facebook.com/groups/AndroidDevRio/&quot;&gt;Android Dev Rio&lt;/a&gt; no Facebook&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.meetup.com/pt-BR/android-meetup-rj/&quot;&gt;Android Rio de Janeiro&lt;/a&gt; no Meetup&lt;/p&gt;
 
-&lt;h2 id=&quot;ios&quot;&gt;iOS&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.meetup.com/pt-BR/iOS-Developer-Meetup-Rio/&quot;&gt;iOS Developer Rio&lt;/a&gt; no Meetup&lt;/p&gt;
+&lt;p&gt;##iOS
+&lt;a href=&quot;http://www.meetup.com/pt-BR/iOS-Developer-Meetup-Rio/&quot;&gt;iOS Developer Rio&lt;/a&gt; no Meetup&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h1 id=&quot;devops&quot;&gt;DevOps&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.meetup.com/pt-BR/DevOps-RJ/&quot;&gt;DevOps RJ&lt;/a&gt; no Meetup&lt;/p&gt;
+&lt;p&gt;#DevOps
+&lt;a href=&quot;http://www.meetup.com/pt-BR/DevOps-RJ/&quot;&gt;DevOps RJ&lt;/a&gt; no Meetup&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.meetup.com/pt-BR/AWS-Meetup-Rio-de-Janeiro/&quot;&gt;AWS Rio de Janeiro&lt;/a&gt; no Meetup&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h1 id=&quot;cmss&quot;&gt;CMS’s&lt;/h1&gt;
+&lt;p&gt;#CMS’s&lt;/p&gt;
 
-&lt;h2 id=&quot;drupal&quot;&gt;Drupal&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.facebook.com/groups/riojs/&quot;&gt;Drupal&lt;/a&gt; no Facebook&lt;/p&gt;
+&lt;p&gt;##Drupal
+&lt;a href=&quot;https://www.facebook.com/groups/riojs/&quot;&gt;Drupal&lt;/a&gt; no Facebook&lt;/p&gt;
 
-&lt;h2 id=&quot;wordpress&quot;&gt;Wordpress&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;http://wprio.org/&quot;&gt;WPRio&lt;/a&gt; site&lt;/p&gt;
+&lt;p&gt;##Wordpress
+&lt;a href=&quot;http://wprio.org/&quot;&gt;WPRio&lt;/a&gt; site&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.meetup.com/pt-BR/wp-rio/&quot;&gt;WPRio&lt;/a&gt; no Meetup&lt;/p&gt;
 
@@ -100,17 +106,125 @@
 
 &lt;hr /&gt;
 
-&lt;h1 id=&quot;geral&quot;&gt;Geral&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.meetup.com/pt-BR/devbeers-Rio-de-Janeiro/&quot;&gt;devbeers&lt;/a&gt; no Meetup&lt;/p&gt;
-
-&lt;p&gt;Se faltou algum na lista, me avisa lá no &lt;a href=&quot;http://twitter.com/pedromarins&quot;&gt;twitter&lt;/a&gt;!&lt;/p&gt;
-
-&lt;p&gt;Recomendo que você salve essa página nos seus favoritos. Vou atualizá-la constantemente, e você pode voltar periódicamente para ter certeza que não está perdendo nada.&lt;/p&gt;
+&lt;p&gt;#Geral
+&lt;a href=&quot;http://www.meetup.com/pt-BR/devbeers-Rio-de-Janeiro/&quot;&gt;devbeers&lt;/a&gt; no Meetup&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 11 Feb 2016 21:03:38 -0200</pubDate>
         <link>//como-se-envolver-com-a-comunidade-de-desenvolvimento-do-rio/</link>
         <guid isPermaLink="true">//como-se-envolver-com-a-comunidade-de-desenvolvimento-do-rio/</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Você está perdendo dinheiro como freelancer</title>
+        <description>&lt;p&gt;Deixa eu te contar uma coisa. Basicamente, tudo que tenho hoje na minha carreira profissional é devido à comunidade de desenvolvimento do Rio de Janeiro. As últimas oportunidades de emprego, a maioria dos projetos de consultoria, grande parte os projetos de freelancer, etc. Quanto mais me aproximo das comunidades, mais me beneficio. Sempre.&lt;/p&gt;
+
+&lt;p&gt;Quando organizo eventos, compartilho conhecimento ou crio projetos open source, meu objetivo é cada vez mais aumentar essa rede ao máximo. Assim como eu me beneficio participando das comunidades, essa relação é mútua. O ganha-ganha é real. Então, aumentar e fortalecer essa rede só me trás benefícios, assim como trás benefícios para todo mundo que participa.&lt;/p&gt;
+
+&lt;p&gt;E tem mais uma coisa que sempre foi destaque para mim. Participar de uma comunidade de desenvolvimento, palestrando, trocar ideias, organizando eventos ou interagindo, me deu a oportunidade de conhecer outros modelos mentais, expandindo o meu. Grandes desenvolvedores tem modelos mentais incríveis. A forma como as pessoas que eu admiro apresentam ou resolvem um problema tem um grande potencial de abalar tudo o que eu penso. Em dezenas desses encontros tive que passar horas refletindo para poder absorver tudo que foi falado.&lt;/p&gt;
+
+&lt;p&gt;Mas, umas das grandes dúvidas de quem está entrando no mundo do desenvolvimento é: por onde começar? Onde encontrar as pessoas, onde conhecer quem sabe mais para ter ajudar no processo de aprendizado, onde consultar para descobrir sobre novas tecnologias, quem seguir para ficar por dentro das novidades, onde compartilhar o que eu sei e o que estou aprendendo para contribuir com essa rede, etc. Já ouvi perguntas desse tipo dezenas de vezes nos cursos que dou ou em eventos que organizo.&lt;/p&gt;
+
+&lt;p&gt;Para responder essas perguntas, criei esse &lt;strong&gt;guia de comunidades de desenvolvimento&lt;/strong&gt; do Rio! Ai abaixo estão referências para grupos de desenvolvedores front-end, back-end, mobile, devops e CMS’s. Comecei essa lista com as comunidades que conheco e frequento, ou já frequentei!&lt;/p&gt;
+
+&lt;p&gt;Se faltou algum na lista, me avisa lá no &lt;a href=&quot;http://twitter.com/pedromarins&quot;&gt;twitter&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;Recomendo que você salve essa página nos seus favoritos. Vou atualizá-la constantemente, e você pode voltar periódicamente para ter certeza que não está perdendo nada.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;#Front-end&lt;/p&gt;
+
+&lt;p&gt;##JS
+&lt;a href=&quot;https://www.facebook.com/groups/riojs/&quot;&gt;RioJS&lt;/a&gt; no Facebook&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.facebook.com/groups/1495763027368240/&quot;&gt;Niterói.JS&lt;/a&gt; no Facebook&lt;/p&gt;
+
+&lt;p&gt;##Angular
+&lt;a href=&quot;http://www.meetup.com/pt-BR/angularjsrio/&quot;&gt;AngularJS Rio de Janeiro&lt;/a&gt; no Meetup&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;#Back-end&lt;/p&gt;
+
+&lt;p&gt;##Python
+&lt;a href=&quot;https://www.facebook.com/pythonrio&quot;&gt;PythonRio&lt;/a&gt; no Facebook&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.meetup.com/pt-BR/Python-Rio/&quot;&gt;Python Rio&lt;/a&gt; no Meetup&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.meetup.com/pt-BR/Meetup-PyLadies-Rio-de-Janeiro/&quot;&gt;PyLadies Rio de Janeiro&lt;/a&gt; no Meetup&lt;/p&gt;
+
+&lt;p&gt;##Ruby
+&lt;a href=&quot;https://www.facebook.com/groups/rubyonrio&quot;&gt;RubyOnRio&lt;/a&gt; no Facebook&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://groups.google.com/forum/#!forum/rubyonrio&quot;&gt;RubyOnRio&lt;/a&gt; no Google Groups&lt;/p&gt;
+
+&lt;p&gt;##Node
+&lt;a href=&quot;http://www.meetup.com/pt-BR/NodeBR-Rio-de-Janeiro/&quot;&gt;NodeBR Rio de Janeiro&lt;/a&gt; no Meetup&lt;/p&gt;
+
+&lt;p&gt;##Meteor
+&lt;a href=&quot;http://www.meetup.com/pt-BR/Meteor-Rio-de-Janeiro/&quot;&gt;Meteor Rio de Janeiro&lt;/a&gt; no Meetup&lt;/p&gt;
+
+&lt;p&gt;##PHP
+&lt;a href=&quot;phprio.org&quot;&gt;PHP Rio&lt;/a&gt; site&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;twitter.com/phprio&quot;&gt;PHP Rio&lt;/a&gt; twitter&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://groups.google.com/group/phprio-org&quot;&gt;PHP Rio&lt;/a&gt; no Google Groups&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://web.facebook.com/PHPRio-160383237381004/&quot;&gt;PHP Rio&lt;/a&gt; no Facebook&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;#Mobile&lt;/p&gt;
+
+&lt;p&gt;##Ionic
+&lt;a href=&quot;http://www.meetup.com/pt-BR/Ionic-Rio-de-Janeiro/&quot;&gt;Ionic Rio de Janeiro&lt;/a&gt; no Meetup&lt;/p&gt;
+
+&lt;p&gt;##Android
+&lt;a href=&quot;https://www.facebook.com/groups/AndroidDevRio/&quot;&gt;Android Dev Rio&lt;/a&gt; no Facebook&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.meetup.com/pt-BR/android-meetup-rj/&quot;&gt;Android Rio de Janeiro&lt;/a&gt; no Meetup&lt;/p&gt;
+
+&lt;p&gt;##iOS
+&lt;a href=&quot;http://www.meetup.com/pt-BR/iOS-Developer-Meetup-Rio/&quot;&gt;iOS Developer Rio&lt;/a&gt; no Meetup&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;#DevOps
+&lt;a href=&quot;http://www.meetup.com/pt-BR/DevOps-RJ/&quot;&gt;DevOps RJ&lt;/a&gt; no Meetup&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.meetup.com/pt-BR/AWS-Meetup-Rio-de-Janeiro/&quot;&gt;AWS Rio de Janeiro&lt;/a&gt; no Meetup&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;#CMS’s&lt;/p&gt;
+
+&lt;p&gt;##Drupal
+&lt;a href=&quot;https://www.facebook.com/groups/riojs/&quot;&gt;Drupal&lt;/a&gt; no Facebook&lt;/p&gt;
+
+&lt;p&gt;##Wordpress
+&lt;a href=&quot;http://wprio.org/&quot;&gt;WPRio&lt;/a&gt; site&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.meetup.com/pt-BR/wp-rio/&quot;&gt;WPRio&lt;/a&gt; no Meetup&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://wpbrasil.slack.com/?redir=%2Fmessages%2Friodejaneiro%2F&quot;&gt;WBBrasil Rio de Janeiro&lt;/a&gt; no Slack&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;#Geral
+&lt;a href=&quot;http://www.meetup.com/pt-BR/devbeers-Rio-de-Janeiro/&quot;&gt;devbeers&lt;/a&gt; no Meetup&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 11 Feb 2016 21:03:38 -0200</pubDate>
+        <link>//voce-esta-perdendo-dinheiro-como-freelancer/</link>
+        <guid isPermaLink="true">//voce-esta-perdendo-dinheiro-como-freelancer/</guid>
         
         
         <category>jekyll</category>

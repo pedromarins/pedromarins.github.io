@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="368 3077 18 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #dd4358;
+      }
+    </style>
+  </defs>
+  <g id="group-16" transform="translate(84 484)">
+    <rect id="rectangle" class="cls-1" width="10" height="2" transform="translate(288 2606)"/>
+    <rect id="rectangle-2" data-name="rectangle" class="cls-1" width="8" height="2" transform="translate(288 2602)"/>
+    <rect id="rectangle-3" data-name="rectangle" class="cls-1" width="10" height="2" transform="translate(288 2610)"/>
+    <path id="path" class="cls-1" d="M16,2H14V1a1,1,0,0,0-2,0V2H10V1A.945.945,0,0,0,9,0,.945.945,0,0,0,8,1V2H6V1A.945.945,0,0,0,5,0,.945.945,0,0,0,4,1V2H2A2.006,2.006,0,0,0,0,4V22a2.006,2.006,0,0,0,2,2H16a2.006,2.006,0,0,0,2-2V4A2.006,2.006,0,0,0,16,2ZM2,22V4H4V5A.945.945,0,0,0,5,6,.945.945,0,0,0,6,5V4H8V5A.945.945,0,0,0,9,6a.945.945,0,0,0,1-1V4h2V5a1,1,0,0,0,2,0V4h2V22Z" transform="translate(284 2593)"/>
+  </g>
+</svg>

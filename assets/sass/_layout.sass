@@ -9,6 +9,7 @@ html
 
 body
     font-family: $base-font-family
+    font-weight: 300
     border-top: 5px solid $red
     margin: 0
     font-size: $base-font-size
@@ -17,14 +18,13 @@ body
     min-height: 100%
     position: relative
     padding: 0 0 4em
+    color: $dark-blue
 
 li
     list-style: none
 
 a
     color: $dark-blue
-    &:visited
-        color: $dark-blue
 
 .wrapper
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2))
@@ -42,17 +42,17 @@ a
         padding-left: $spacing-unit / 2
 
 .content
-    padding: $spacing-unit*2
+    padding: $spacing-unit*2 $spacing-unit*2 0 $spacing-unit*2
 
     @include media-query($on-tablet)
         max-width: 96%
 
     @include media-query($on-mobile)
-        padding: $spacing-unit
+        padding: $spacing-unit $spacing-unit $spacing-unit*2
 
 .presentation
     background: $dark-blue
-    padding: $spacing-unit*2 0
+    padding: $spacing-unit*2 0 0
     color: $white
     text-align: center
 
@@ -73,10 +73,7 @@ a
 
         @include media-query($on-tablet)
             font-size: 1em
-    a
-        color: $blue
-        border-color: $blue
-        font-size: 0.9em
+
 
         @include media-query($on-tablet)
             font-size: 0.8em
@@ -87,7 +84,68 @@ a
     text-transform: uppercase
 
 
-// site-header ------------------------------------------------------------------------------------
+.page-content
+    padding-bottom: 60px
+    
+// ------------------------------------------------------------------------------------ header-nav
+.header--nav
+    background: #FFFFFF
+    border-bottom: 1px solid #efefef
+    box-shadow: 0 12px 12px #efefef
+
+.header--list
+    margin: 0
+    padding: 0
+
+.header--item
+    display: inline-block
+    width: 25%
+    margin: 0 -4px 0 0
+
+.header--link
+    display: inline-block
+    color: $dark-blue
+    text-decoration: none
+    padding: 1.5em 0
+    width: 100%
+
+.header--link-newsletter
+    background: $blue
+    font-weight: 700
+
+
+// ------------------------------------------------------------------------------------ site-header
+.home-about
+    padding: 5em 0
+    border-bottom: 5px solid $blue
+    text-align: center
+
+.home-about--title
+    font-size: 2.5em
+    color: $red
+    margin: 0
+    font-weight: 700
+
+.home-about--texto
+    padding: 0 20%
+    margin: 2em 0 3em
+
+.home-about--button
+    border: 3px solid $blue
+    border-radius: 25px
+    color: $dark-blue
+    background: none
+    font-weight: 700
+    height: 50px
+    line-height: 44px
+    font-size: 1em
+    padding: 0 4em
+    cursor: pointer
+    display: inline-block
+    text-decoration: none
+
+
+// ------------------------------------------------------------------------------------ site-header
 .site-header
     background: $dark-blue
     position: relative
@@ -114,7 +172,11 @@ a
     line-height: $spacing-unit*2
     margin: 0 0 0 $spacing-unit/2
 
-// post-list ------------------------------------------------------------------------------------
+.nav-link
+    color: white
+    cursor: pointer
+
+// ------------------------------------------------------------------------------------ post-list
 .post-list
     padding: 0
     margin: $spacing-unit*2
@@ -151,7 +213,7 @@ a
     color: $gray-text
     font-size: $small-font-size
 
-// events-list ------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------ events-list
 .events-list
     padding: 0
     margin: $spacing-unit*2 0 0
@@ -192,7 +254,7 @@ a
         max-width: 100%
         max-height: 100%
 
-// about ------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------ about
 .eu
     width: 100%
 
@@ -210,7 +272,7 @@ a
         font-size: 1.6em
 
 
-// timeline ------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------ timeline
 .timelime-content
     position: relative
     text-align: center
@@ -322,7 +384,7 @@ a
         transform: scale(1.3)
 
 
-// timeline-filter ------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------ timeline-filter
 .timeline-filter
     text-align: center
 
@@ -370,7 +432,7 @@ a
     color: $dark-blue
 
 
-// timeline-icons ------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------ timeline-icons
 .item-project:before
     content: url(../img/drincons/drincons-project.svg)
 .timeline-filter--button-project:before
@@ -395,7 +457,7 @@ a
 
 
 
-// post ------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------ post
 .post
     background: white
     max-width: 700px
@@ -465,7 +527,7 @@ hr
     height: 0
     margin: $spacing-unit*2 0
 
-// post-footer ------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------ post-footer
 // .post-share -----------
 .post-share
     border-top: 3px solid $gray
@@ -507,59 +569,8 @@ hr
 .post-comments-disqus
     margin: 0 0 $spacing-unit*3
 
-// newsletter ------------------------------------------------------------------------------------
-.newsletter
-    margin: $spacing-unit auto
-    border: 2px solid $dark-blue
-    padding: $spacing-unit $spacing-unit*2
-    background: #E2E2E2
-    border-radius: 5px
 
-.newsletter-email
-    width: 70%
-    margin: 5px 0 $spacing-unit/3
-    border: 1px solid $gray-text
-    border-radius: 5px
-    padding: 12px 20px
-    font-size: $base-font-size
-    color: $dark-blue
-    outline: none
-
-    &:focus
-        border: 1px solid $dark-blue
-        box-shadow: 0 0 4px $dark-blue
-        
-
-.newsletter-button
-    background: $dark-blue
-    color: white
-    font-size: $base-font-size
-    font-weight: 700
-    border: none
-    padding: 12px 20px
-    border-radius: 5px
-    cursor: pointer
-    width: 28%
-
-    &:hover
-        background: lighten($dark-blue, 5%)
-
-
-// now ------------------------------------------------------------------------------------
-
-.now-title
-    font-size: 4em
-    margin-top: 0
-
-.now-list
-    margin: 0 0 2em
-
-.now-item
-    list-style: disc
-    margin: 0 0 1em
-
-
-// site-footer ------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------ site-footer
 .site-footer
     background: $dark-blue
     padding: $spacing-unit/2 0
@@ -570,16 +581,27 @@ hr
     left: 0
     width: 100%
 
+    @include media-query($on-tablet)
+        font-size: 0.9em
+
 .footer-heading
     display: inline-block
 
 .social-media-list
     display: inline-block
     padding: 0
+    @include media-query($on-mobile)
+        width: 100%
+        text-align: center
+    
     li
         display: inline-block
         &:before
             content: " • "
+        @include media-query($on-mobile)
+            &:last-child
+                &::after
+                    content: " • "
     a
         color: white
 
@@ -587,18 +609,41 @@ hr
     position: absolute
     right: 0
     top: 0
+    text-align: right
 
+    @include media-query($on-tablet)
+        right: 15px
 
-// contact-form ------------------------------------------------------------------------------------
+        img
+            width: 80%
+            margin-top: 5px
+        
+
+// ------------------------------------------------------------------------------------ contact-form
+.contact-helper
+    display: none
+
+    &:checked + .contact-form
+        z-index: 1000
+        opacity: 1
+        -webkit-transform: scale(1)
+        -ms-transform: scale(1)
+        transform: scale(1)
+        display: block
+
 .contact-form
-    position: absolute
+    position: fixed
     top: 0
     background: lighten($dark-blue, 30%)
     width: 100%
     height: 100%
-    z-index: -1
+    z-index: -1000
     opacity: 0
-    transition: 1s
+    -webkit-transition: transform 0.75s, z-index  0.75, opacity  0.75s
+    transition: transform 0.75s , z-index  0.75s, opacity  0.75s 
+    -webkit-transform: scale(0.5)
+    -ms-transform: scale(0.5)
+    transform: scale(0.5)
 
     h4
         font-size: 1.3em
@@ -607,10 +652,8 @@ hr
 
     form
         width: 40%
-        margin: 0 auto
+        margin: $spacing-unit*3 auto 0
         position: relative
-        top: 50%
-        transform: translateY(-50%)
 
         @include media-query($on-tablet)
             width: 65%
@@ -645,7 +688,7 @@ hr
 
 
 .contact-form-active
-    z-index: 10
+    z-index: 100
     opacity: 1
 
 .close-form

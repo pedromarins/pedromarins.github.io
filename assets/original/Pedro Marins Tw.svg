@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="331 4732 984 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-size: 20px;
+        font-family: Raleway-Regular, Raleway;
+      }
+
+      .cls-2 {
+        font-family: Raleway-Black, Raleway;
+        font-weight: 800;
+      }
+
+      .cls-3 {
+        font-family: Raleway-Light, Raleway;
+        font-weight: 300;
+      }
+
+      .cls-4 {
+        fill: #95989a;
+      }
+
+      .cls-5 {
+        fill: #90fff3;
+        font-family: Raleway-Bold, Raleway;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text id="Pedro_Marins_Tw" data-name="Pedro Marins Tw" class="cls-1" transform="translate(331 4751)"><tspan x="0" y="0">© </tspan><tspan class="cls-2" y="0">PEDRO MARINS </tspan><tspan class="cls-3" y="0">Todos os direitos reservados</tspan><tspan class="cls-4" y="0" xml:space="preserve">             </tspan><tspan class="cls-5" y="0" xml:space="preserve">Twitter    Github    Facebook    Linkedin    Feed/RSS</tspan></text>
+</svg>

@@ -1,0 +1,59 @@
+// ------------------------------------------------------------------------------------ newsletter
+.newsletter
+    padding: 5em 0
+    background: $light-gray
+    text-align: center
+    @include media-query($on-mobile)
+        font-size: 0.9em
+
+
+.newsletter-title
+    font-size: 2.5em
+    font-weight: 700
+    color: $dark-blue
+    margin: 0 0 0.5em
+    line-height: 1
+    
+    &:before
+        content: ''
+        display: block
+        width: 30px
+        height: 3px
+        background: $red
+        margin: 0 auto
+
+.newsletter-text
+    margin: 0 10%
+
+.newsletter-form
+    margin: 3em 10% 0
+    
+    @include media-query($on-mobile)
+        margin-right: 5%
+        margin-left: 5%
+
+.newsletter-email
+    display: inline-block
+    width: 70%
+    margin: 0 0 0 -4px
+    border: none
+    font-size: 1.5em
+    padding: 1em
+    font-weight: 300
+    
+    @include media-query($on-mobile)
+        width: 100%
+
+.newsletter-button
+    display: inline-block
+    width: 30%
+    margin: 0 0 0 -4px
+    border: none
+    background: $blue
+    color: $dark-blue
+    font-weight: 700
+    font-size: 1.5em
+    padding: 1em
+    
+    @include media-query($on-mobile)
+        width: 100%

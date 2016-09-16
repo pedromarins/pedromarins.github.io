@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="631 1168 384 67">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #90fff3;
+        stroke-width: 4px;
+      }
+
+      .cls-2 {
+        fill: #3a4350;
+        font-size: 20px;
+        font-family: Raleway-Bold, Raleway;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="group-3" transform="translate(140 127)">
+    <g id="rectangle-6" class="cls-1" transform="translate(491 1041)">
+      <rect class="cls-3" width="384" height="67" rx="33.5"/>
+      <rect class="cls-4" x="2" y="2" width="380" height="63" rx="31.5"/>
+    </g>
+    <text id="Saiba_mais_sobr" data-name="Saiba mais sobr" class="cls-2" transform="translate(579 1080)"><tspan x="0" y="0">Saiba mais sobre mim</tspan></text>
+    <path id="path-5" class="cls-1" d="M960.515,1117.01l7.163,7.163-7.163,7.162" transform="translate(-134.154 -49.154)"/>
+    <path id="path-5-2" data-name="path-5" class="cls-1" d="M960.515,1117.01l7.163,7.163-7.163,7.162" transform="translate(-123.154 -49.154)"/>
+  </g>
+</svg>

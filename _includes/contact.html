@@ -1,5 +1,6 @@
-<div class="contact-form" id="contact-form">
-  <button type="button" class="close-form" id="close-form">&#10005;</button>
+<input type="checkbox" id="contact" class="contact-helper" name="modal">
+<div class="contact-form" id="contact-form" style="display: none">
+  <label for="contact" class="close-form">&#10005;</label>
   <form action="//formspree.io/contato@pedromarins.com" method="POST">
       <h4>Contato</h4>
 
@@ -18,12 +19,3 @@
       <input class="contact-form-submit" type="submit" value="Enviar">
   </form>
 </div>
-
-<script>
-  document.getElementById("contact-link").onclick = toggleForm;
-  document.getElementById("close-form").onclick = toggleForm;
-
-  function toggleForm() {
-    document.getElementById("contact-form").classList.toggle("contact-form-active");
-  };
-</script>

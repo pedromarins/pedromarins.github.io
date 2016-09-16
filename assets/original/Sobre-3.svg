@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1245 760 190 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3a4350;
+        font-size: 20px;
+        font-family: Raleway-Bold, Raleway;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text id="Sobre" class="cls-1" transform="translate(1245 779)"><tspan x="0" y="0">Assine a Newsletter</tspan></text>
+</svg>

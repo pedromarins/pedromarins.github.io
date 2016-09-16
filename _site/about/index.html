@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="canonical" href="//about/">
   <link rel="alternate" type="application/rss+xml" title="Pedro Marins" href="//feed.xml" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,700" rel="stylesheet">
 </head>
 
 
@@ -36,7 +37,7 @@
                 <a class="nav-link" href="/newsletter/">newsletter</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" id="contact-link">contato</a>
+                <label for="contact" class="nav-link">contato</label>
             </li>
         </ul>
     </nav>
@@ -585,8 +586,9 @@
 
 </footer>
 
-<div class="contact-form" id="contact-form">
-  <button type="button" class="close-form" id="close-form">&#10005;</button>
+<input type="checkbox" id="contact" class="contact-helper" name="modal">
+<div class="contact-form" id="contact-form" style="display: none">
+  <label for="contact" class="close-form">&#10005;</label>
   <form action="//formspree.io/contato@pedromarins.com" method="POST">
       <h4>Contato</h4>
 
@@ -605,15 +607,6 @@
       <input class="contact-form-submit" type="submit" value="Enviar">
   </form>
 </div>
-
-<script>
-  document.getElementById("contact-link").onclick = toggleForm;
-  document.getElementById("close-form").onclick = toggleForm;
-
-  function toggleForm() {
-    document.getElementById("contact-form").classList.toggle("contact-form-active");
-  };
-</script>
 
   </body>
 
