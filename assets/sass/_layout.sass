@@ -50,22 +50,32 @@ a
         padding: $spacing-unit $spacing-unit $spacing-unit*2
 
 .presentation
-    background: $dark-blue
-    padding: $spacing-unit*2 0 0
+    background: url(../img/presentation.jpg) no-repeat center top fixed
+    -webkit-background-size: cover
+    -moz-background-size: cover
+    -o-background-size: cover
+    background-size: cover
     color: $white
     text-align: center
-
+    height: 600px
+    position: relative
+    
     @include media-query($on-tablet)
-        padding-top: $spacing-unit*1
+        padding-top: 72px
+
     h1
         font-size: 6em
         font-weight: 700
         text-transform: uppercase
         line-height: 1.7
         margin: 0
+        padding: 1em 0 0
+        text-shadow: 0 0 30px #000
 
         @include media-query($on-tablet)
-            font-size: 2.7em
+            font-size: 3em
+            padding: 0.5em 0 0
+
     p
         font-size: 2em
         text-transform: uppercase
@@ -77,13 +87,16 @@ a
         @include media-query($on-tablet)
             font-size: 0.8em
 
+.presentation-image
+    margin: -3.5em 0 0
+    
+    @include media-query($on-tablet)
+        display: none
+
 .box-heading
     font-size: 1.8em
     font-weight: 600
     text-transform: uppercase
-
-
-.page-content
 
     
 // ------------------------------------------------------------------------------------ header-nav
@@ -91,14 +104,29 @@ a
     background: #FFFFFF
     border-bottom: 1px solid #efefef
     box-shadow: 0 12px 12px #efefef
+    position: relative
+    top: -72px
+    left: 0
+    width: 100%
+    min-height: 72px
+    
+    @include media-query($on-tablet)
+        position: fixed
+        top: 0
+        box-shadow: none
 
 .header--list
-    margin: 0
+    margin: 0 0 0 -4px
     padding: 0
+    width: 75%
+    display: inline-block
+    
+    @include media-query($on-tablet)
+        width: 100%
 
 .header--item
     display: inline-block
-    width: 25%
+    width: 20%
     margin: 0 -4px 0 0
     text-align: center
     border-left: 1px solid #efefef
@@ -108,6 +136,24 @@ a
         border-top: 1px solid #efefef
         border-left: none
 
+.header--item-newsletter
+    background: $blue
+    font-weight: 700
+    width: 25%
+    text-align: center
+    color: $dark-blue
+    text-decoration: none
+    padding: 1.5em 0
+    display: inline-block
+    margin: 0 0 0 -1px
+    
+    @include media-query($on-tablet)
+        width: 80%
+        position: fixed
+        top: 0
+        left: 20%
+        margin: 0
+
 .header--link
     display: inline-block
     color: $dark-blue
@@ -115,10 +161,25 @@ a
     padding: 1.5em 0
     width: 100%
 
-.header--link-newsletter
-    background: $blue
-    font-weight: 700
+.header--check
+    display: none
+    width: 20%
+    height: 71px
+    vertical-align: top
+    text-align: center
+    line-height: 71px
+    font-size: 3em
 
+    @include media-query($on-tablet)
+        display: inline-block
+
+.checkbox
+    display: none
+
+.checkbox:checked + .header--list
+    
+    @include media-query($on-tablet)
+        display: none
 
 // ------------------------------------------------------------------------------------ site-header
 .home-about
