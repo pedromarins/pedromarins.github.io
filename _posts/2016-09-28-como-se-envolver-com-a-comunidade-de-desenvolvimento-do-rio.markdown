@@ -6,7 +6,7 @@ date: 2016-02-11 23:03:38
 categories: jekyll update
 reading: 3 min
 author: Pedro Marins
-published: true
+published: false
 ---
 
 Deixa eu te contar uma coisa. Basicamente, tudo que tenho hoje na minha carreira profissional é devido à comunidade de desenvolvimento do Rio de Janeiro. As últimas oportunidades de emprego, a maioria dos projetos de consultoria, grande parte os projetos de freelancer, etc. Quanto mais me aproximo das comunidades, mais me beneficio. Sempre.
