@@ -1,0 +1,82 @@
+.header--nav
+    background: #FFFFFF
+    border-bottom: 1px solid #efefef
+    box-shadow: 0 12px 12px #efefef
+    position: relative
+    top: -72px
+    left: 0
+    width: 100%
+    min-height: 72px
+    
+    @include media-query($on-tablet)
+        position: fixed
+        top: 0
+        box-shadow: none
+
+.header--intern
+    position: static
+
+.header--list
+    margin: 0 0 0 -4px
+    padding: 0
+    width: 75%
+    display: inline-block
+    
+    @include media-query($on-tablet)
+        width: 100%
+
+.header--item
+    display: inline-block
+    width: 20%
+    margin: 0 -4px 0 0
+    text-align: center
+    border-left: 1px solid #efefef
+    
+    @include media-query($on-tablet)
+        width: 100%
+        border-top: 1px solid #efefef
+        border-left: none
+
+.header--item-newsletter
+    background: $blue
+    font-weight: 700
+    width: 25%
+    text-align: center
+    color: $dark-blue
+    text-decoration: none
+    padding: 1.5em 0
+    display: inline-block
+    margin: 0 0 0 -1px
+    
+    @include media-query($on-tablet)
+        width: 80%
+        position: fixed
+        top: 0
+        left: 20%
+        margin: 0
+
+.header--link
+    display: inline-block
+    color: $dark-blue
+    text-decoration: none
+    padding: 1.5em 0
+    width: 100%
+
+.header--check
+    display: none
+    width: 20%
+    height: 71px
+    vertical-align: top
+    text-align: center
+    line-height: 71px
+    font-size: 3em
+
+    @include media-query($on-tablet)
+        display: inline-block
+
+.checkbox
+    display: none
+
+.checkbox:checked + .header--list
+    @include media-query($on-tablet)
+        display: none

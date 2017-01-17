@@ -19,8 +19,10 @@ linkedin_username:  http://linkedin.com/in/pedromarins
 excerpt_separator: "<!--more-->"
 permalink: /:title/
 
+livereload: true
 
 markdown: kramdown
 
 sass:
-    sass_dir: assets/sass
+  sass_dir: assets/_sass
+  style: compressed
