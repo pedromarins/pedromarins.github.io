@@ -47,16 +47,15 @@ $timeline-border: 4px
     color: $dark-blue
     border: none
     border-left: 5px solid $light-gray
-    border-right: 5px solid $light-gray
     font-weight: 400
     font-size: 0.9em
     display: inline-block
     padding: 0.5em 0
     cursor: pointer
-    margin: 0 -9px 0 0
+    margin: 0 -4px 0 0
     transition: 0.5s all
     outline: 0
-    width: 17%
+    width: 16.6%
 
     &:before
         content: ""
@@ -76,7 +75,7 @@ $timeline-border: 4px
             left: 14px
 
     &:first-child
-        border-right: 0
+        border-left: 0
 
 .timeline-filter--button-active
     background: $blue
@@ -91,6 +90,11 @@ $timeline-border: 4px
 
     @include media-query($on-tablet)
         text-align: left
+        padding: $spacing-unit 0
+
+    @include media-query($on-mobile)
+        font-size: 0.9em
+
     &:after
         content: ""
         position: absolute
@@ -99,53 +103,114 @@ $timeline-border: 4px
         background-color: white
         left: 50%
         top: 0px
+        margin: 0 0 0 -2px
 
         @include media-query($on-tablet)
-            left: 35px
+            left: 56px
+
+        @include media-query($on-mobile)
+            left: 46px
+    
     ul
         padding: 0
 
 .timeline-year
-    border: $timeline-border solid white
-    border-radius: 38px
-    background: darken($light-gray, 10%)
-    font-size: 1.5em
-    color: $dark-blue
-    font-weight: 700
-    display: inline-block
-    padding: $spacing-unit/2 $spacing-unit
-    margin: $spacing-unit/3 0 $spacing-unit*2
     position: relative
-    z-index: 10
+    display: inline-block
+    width: 100%
+    margin: $spacing-unit/3 0 $spacing-unit*2
 
     @include media-query($on-tablet)
-        padding: $spacing-unit/3 $spacing-unit/2
+        margin: $spacing-unit 0
+
+    span
+        border: $timeline-border solid white
+        border-radius: 50px
+        background: darken($light-gray, 10%)
+        font-size: 1.5em
+        color: $dark-blue
+        font-weight: 700
+        display: inline-block
+        padding: $spacing-unit/3 $spacing-unit
+        position: relative
+        z-index: 10
+
+        @include media-query($on-tablet)
+            font-size: 1em
+            padding: $spacing-unit/4 $spacing-unit/2 $spacing-unit/5
+            margin: 0 0 0 10px
+
+        @include media-query($on-mobile)
+            margin: 0 0 0 3px
+
+    &:after
+        content: ''
+        border-top: 4px solid white
+        position: absolute
+        width: 100%
+        display: inline-block
+        top: 39px
+        left: 0
+
+        @include media-query($on-tablet)
+            top: 27px
 
 .timeline-item
-    width: 35%
     text-align: left
-    padding: $spacing-unit/2
     position: relative
-    margin: 0px 5% $spacing-unit*2 10%
-    background: white
-    border-radius: 8px
-    box-shadow: 0 5px 15px darken($light-gray, 40%)
+    width: 50%
 
     @include media-query($on-tablet)
         width: 100%
-        text-align: left
-        padding: 0 0 0 $spacing-unit*3
+        margin: 0 0 $spacing-unit/2
+
+    div
+        width: 70%
+        padding: $spacing-unit/2
+        margin: 0px 12% $spacing-unit*2 18%
+        background: white
+        border-radius: 8px
+        box-shadow: 0 5px 15px darken($light-gray, 40%)
+        position: relative
+
+        @include media-query($on-tablet)
+            width: 84%
+            margin: 0 0 0 14%
+
+        @include media-query($on-mobile)
+            width: 79%
+            margin: 0 0 0 19%
+
+        &:after
+            content: ""
+            border-left: 15px solid white
+            border-top: 12px solid transparent
+            border-bottom: 12px solid transparent
+            position: absolute
+            right: -15px
+            top: 20px
+
+            @include media-query($on-tablet)
+                right: auto
+                left: -15px
+                border-left: none
+                border-right: 15px solid white
+
+            @include media-query($on-mobile)
+                border-right: 8px solid white
+                left: -8px
+                top: 15px
 
     &:before
         content: ""
-        width: 34px
-        height: 34px
+        width: 50px
+        height: 50px
         border-radius: 50%
         border: $timeline-border solid white
         background: $blue
         position: absolute
-        top: 5%
-        right: -100px
+        top: 2%
+        right: -31px
         z-index: 20
         transition: 0.8s
         color: white
@@ -154,16 +219,14 @@ $timeline-border: 4px
         padding: 4px
 
         @include media-query($on-tablet)
-            left: 14px
+            left: 27px
+            width: 40px
+            height: 40px
 
-    &:after
-        content: ""
-        border-left: 15px solid white
-        border-top: 12px solid transparent
-        border-bottom: 12px solid transparent
-        position: absolute
-        right: -15px
-        top: 25px
+        @include media-query($on-mobile)
+            left: 21px
+            width: 32px
+            height: 32px
 
     h3
         padding: 0 0 0.6em 0
@@ -180,29 +243,49 @@ $timeline-border: 4px
         border-color: $dark-blue
         color: $dark-blue
 
+    // Para os que ficam a direita
     &:nth-child(2n)
-        text-align: left
         left: 50%
-        margin: 0px 10% $spacing-unit*2 5%
 
         @include media-query($on-tablet)
-            width: 100%
-            padding: 0 0 0 90px
-            left: auto
+            left: 0
+        
+        div
+            margin: 0px 18% $spacing-unit*2 12%
+
+            @include media-query($on-tablet)
+                width: 84%
+                margin: 0 0 0 14%
+
+            @include media-query($on-mobile)
+                width: 79%
+                margin: 0 0 0 19%
+
+            &:after
+                right: auto
+                left: -15px
+                border-left: 0
+                border-right: 15px solid white
+
+                @include media-query($on-mobile)
+                    border-right: 8px solid white
+                    left: -8px
+                    top: 15px
+
         &:before
-            left: -96px
+            left: -31px
             right: auto
 
             @include media-query($on-tablet)
-                left: 14px
-        &:after
-            right: auto
-            left: -15px
-            border-left: 0
-            border-right: 15px solid white
+                left: 27px
+                width: 40px
+                height: 40px
 
-            @include media-query($on-tablet)
-                left: 40px
+            @include media-query($on-mobile)
+                left: 21px
+                width: 32px
+                height: 32px
+
     &:hover:before
         transform: scale(1.3)
 
