@@ -23,6 +23,9 @@ $timeline-border: 4px
     margin: 5em 0 0
     text-align: center
 
+    @include media-query($on-tablet)
+        margin: 1em 0 0
+
 .timeline-heading--title
     font-size: 3em
     font-weight: 700
@@ -36,6 +39,9 @@ $timeline-border: 4px
         height: 3px
         background: $red
         margin: 0 auto
+
+    @include media-query($on-tablet)
+        font-size: 2.5em
 
 // ------------------------------------------------------------------------------------ timeline-filter
 .timeline-filter
@@ -74,8 +80,26 @@ $timeline-border: 4px
         @include media-query($on-tablet)
             left: 14px
 
+        @include media-query($on-mobile)
+            margin: 0 0 0 -12px
+            width: 36px
+            height: 36px
+            padding: 0 3px
+
     &:first-child
         border-left: 0
+
+    @include media-query($on-mobile)
+        font-size: 0.8em
+        border-left: 5px solid $light-gray
+        width: 33.3%
+        border-bottom: 5px solid $light-gray
+
+        &:nth-child(n+4)
+            border-bottom: 0
+
+        &:nth-child(4n)
+            border-left: 0
 
 .timeline-filter--button-active
     background: $blue
@@ -94,6 +118,7 @@ $timeline-border: 4px
 
     @include media-query($on-mobile)
         font-size: 0.9em
+        padding: $spacing-unit/2 0
 
     &:after
         content: ""
@@ -109,7 +134,7 @@ $timeline-border: 4px
             left: 56px
 
         @include media-query($on-mobile)
-            left: 46px
+            left: 40px
     
     ul
         padding: 0
@@ -141,7 +166,8 @@ $timeline-border: 4px
             margin: 0 0 0 10px
 
         @include media-query($on-mobile)
-            margin: 0 0 0 3px
+            margin: 0
+            font-size: 0.8em
 
     &:after
         content: ''
@@ -224,9 +250,9 @@ $timeline-border: 4px
             height: 40px
 
         @include media-query($on-mobile)
-            left: 21px
-            width: 32px
-            height: 32px
+            left: 16px
+            width: 28px
+            height: 28px
 
     h3
         padding: 0 0 0.6em 0
@@ -282,9 +308,9 @@ $timeline-border: 4px
                 height: 40px
 
             @include media-query($on-mobile)
-                left: 21px
-                width: 32px
-                height: 32px
+                left: 16px
+                width: 28px
+                height: 28px
 
     &:hover:before
         transform: scale(1.3)
