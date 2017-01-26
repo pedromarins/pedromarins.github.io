@@ -12,9 +12,13 @@
         position: fixed
         top: 0
         box-shadow: none
+        min-height: 56px
 
 .header--intern
     position: static
+
+    @include media-query($on-tablet)
+        position: fixed
 
 .header--list
     margin: 0 0 0 -4px
@@ -54,6 +58,7 @@
         top: 0
         left: 20%
         margin: 0
+        padding: 1em 0
 
 .header--link
     display: inline-block
@@ -73,6 +78,8 @@
 
     @include media-query($on-tablet)
         display: inline-block
+        height: 56px
+        line-height: 48px
 
 .checkbox
     display: none

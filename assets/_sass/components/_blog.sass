@@ -8,32 +8,56 @@
     @include media-query($on-tablet)
         padding: 0
 
-.post-meta
-    text-align: right
-    margin: $spacing-unit*1.5 0 0
-    font-size: 0.9em
+    @include media-query($on-mobile)
+        padding: 56px 3% 0
+        font-size: 0.8em
 
 .post-header
     text-align: center
 
 .post-title
-    font-size: 60px
+    font-size: 4em
     font-weight: 700
-    margin: $spacing-unit*2.5 0 $spacing-unit
+    margin: 5em 0 2em
     line-height: 1
+
+    @include media-query($on-mobile)
+        font-size: 2em
+        margin: 2em 0 1em
 
 .post-subtitle
     font-weight: 300
     font-style: normal
-    font-size: 32px
+    font-size: 2em
+    margin: 2em 0 0
+
+    @include media-query($on-mobile)
+        margin: 1em 0
+        font-size: 1.5em
+
+.post-meta
+    text-align: center
     margin: 0 0 $spacing-unit*3
+    font-size: 0.9em
+
+    @include media-query($on-mobile)
+        font-size: 1em
+        margin: 0 0 $spacing-unit
+
+.post-time
+    @include media-query($on-mobile)
+        display: block
 
 .post-content
     p
         margin-bottom: $spacing-unit
         word-wrap: break-word
-        font-size: 22px
+        font-size: 1.5em
         line-height: 1.5
+
+        @include media-query($on-mobile)
+            font-size: 1.3em
+
     pre
         background: lighten($dark-blue, 10%)
         border-radius: 5px
@@ -61,18 +85,22 @@
     h3
         font-size: 1.2em
 
+    @include media-query($on-mobile)
+        padding: 0 3%
+
 hr
     border: none
-    border-top: 10px solid $dark-blue
-    border-bottom: 10px solid $blue
+    border-top: 3px solid $blue
+    border-bottom: 3px solid $blue
     height: 0
     margin: $spacing-unit*2 0
+    border-radius: 3px
 
 // ------------------------------------------------------------------------------------ post-footer
 // .post-share -----------
 .post-share
-    border-top: 3px solid $gray
-    padding: $spacing-unit 0 $spacing-unit*2
+    padding: $spacing-unit 0 $spacing-unit
+    text-align: right
     margin: $spacing-unit*3 0 0
 
 .post-share-twitter
@@ -84,7 +112,7 @@ hr
 
 // .post-author -----------
 .post-author
-    border-top: 3px solid $gray
+    border-top: 1px solid $gray
     padding: $spacing-unit 0
 
 .post-author-img
@@ -100,6 +128,9 @@ hr
 .post-author-follow
     float: right
     margin: 15px 0 0
+
+    @include media-query($on-mobile)
+        float: none
 
 // .post-comments -----------
 .post-comments

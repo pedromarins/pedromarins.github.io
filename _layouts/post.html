@@ -5,10 +5,35 @@ layout: default
 <div class="post">
 
   <header class="post-header">
-    <p class="post-meta">Leitura de {{ page.reading }}</p>
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-subtitle">{{ page.subtitle }}</p>
-    <p class="post-signature">por {{ page.author }}</p>
+    <p class="post-meta">
+      <span>{{ page.author }}</span>
+      <strong> • </strong>
+      <span>
+      <!-- Tradução da data -->
+      {% assign m = page.date | date: "%-m" %}
+      {{ page.date | date: "%-d" }} de 
+      {% case m %}
+        {% when '1' %}Janeiro
+        {% when '2' %}Fevereiro
+        {% when '3' %}Março
+        {% when '4' %}Abril
+        {% when '5' %}Maio
+        {% when '6' %}Junho
+        {% when '7' %}Julho
+        {% when '8' %}Agosto
+        {% when '9' %}Setembro
+        {% when '10' %}Outubro
+        {% when '11' %}Novembro
+        {% when '12' %}Dezembro
+      {% endcase %} de 
+      {{ page.date | date: "%Y" }}
+      </span>
+      <strong> • </strong>
+      <span class="post-time">Leitura de {{ page.reading }}</span>
+    </p>
+    
   </header>
 
   <article class="post-content">
@@ -16,31 +41,7 @@ layout: default
   </article>
 
   <footer class="post-footer">
-    <p class="post-date">Publicado em 
-    <!-- Tradução da data -->
-    {% assign m = page.date | date: "%-m" %}
-    {{ page.date | date: "%-d" }} de 
-    {% case m %}
-      {% when '1' %}Janeiro
-      {% when '2' %}Fevereiro
-      {% when '3' %}Março
-      {% when '4' %}Abril
-      {% when '5' %}Maio
-      {% when '6' %}Junho
-      {% when '7' %}Julho
-      {% when '8' %}Agosto
-      {% when '9' %}Setembro
-      {% when '10' %}Outubro
-      {% when '11' %}Novembro
-      {% when '12' %}Dezembro
-    {% endcase %} de 
-    {{ page.date | date: "%Y" }}
-    </p>
-
-
-
     <div class="post-share">
-      <h3>Compartilhe</h3>
       <a href="https://twitter.com/share" class="post-share-twitter twitter-share-button" data-via="pedromarins" data-lang="pt" data-size="medium">Tweetar</a>
 
       <div class="post-share-facebook fb-share-button" data-href="{{ page.url | prepend: site.baseurl }}" data-layout="button_count"></div>

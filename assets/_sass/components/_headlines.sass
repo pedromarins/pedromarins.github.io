@@ -1,11 +1,14 @@
 .headlines-page
     background: $light-gray
 
+    @include media-query($on-tablet)
+        padding-top: 56px
+
     .headlines
         border-bottom: none
 
 .headlines
-    padding: 5em 0 0
+    padding: 5em 0
     border-bottom: 5px solid #85FFF1
     text-align: center
     background: $light-gray
@@ -25,16 +28,27 @@
         margin: 0 auto
 
 .headlines-text
-    
+    padding: 0 5%
 
 .headlines-list
     margin: 3em 2em 0
     padding: 0
     text-align: left
 
+    @include media-query($on-tablet)
+        margin-left: 5%
+        margin-right: 5%
+
 .headlines-list-item
     border-bottom: 1px solid $gray
-    padding: 0 0 2em
+    padding: 3em 0
+    width: 80%
+    margin: 0 10%
+
+    @include media-query($on-tablet)
+        margin-left: 0
+        margin-right: 0
+        width: 100%
     
     &:last-child
         border: none
@@ -42,16 +56,35 @@
 .headlines-list-link
     text-decoration: none
     display: block
-    width: 100%
+    width: 90%
+    position: relative
+    margin: 0 5%
+
+    @include media-query($on-tablet)
+        margin-left: 0
+        margin-right: 0
+        width: 100%
 
 .headlines-list-title
-    display: inline-block
-    width: 70%
-    padding: 0 20% 0 0
+    padding: 0 31% 0 0
     vertical-align: middle
+    margin: 0
+
+    @include media-query($on-tablet)
+        padding: 0
+        // font-size: 0.9em
+
+.headlines-list-meta
+    font-size: 0.8em
+    font-weight: 700
+    color: $red
 
 .headlines-list-button
+    position: absolute
+    top: 0
+    right: 0
     width: 29%
+    max-width: 250px
     border: 3px solid $gray
     border-radius: 25px
     background: none
@@ -59,11 +92,13 @@
     font-weight: 700
     padding: 0 1em
     height: 50px
+    cursor: pointer
 
-.headlines-list-meta
-    font-size: 0.8em
-    font-weight: 700
-    color: $red
+    @include media-query($on-tablet)
+        position: static
+        width: 100%
+        max-width: 100%
+        margin: 2em 0 0
 
 .headlines-archive
     background: $dark-blue
