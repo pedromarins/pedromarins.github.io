@@ -1,5 +1,6 @@
 safe:        false
-baseurl:     /
+baseurl:     ""
+url: "http://pedromarins.github.io"
 
 name: Pedro Marins
 title: Pedro Marins
