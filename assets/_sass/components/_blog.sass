@@ -18,7 +18,7 @@
 .post-title
     font-size: 4em
     font-weight: 700
-    margin: 5em 0 2em
+    margin: $spacing-unit*2 0 0
     line-height: 1
 
     @include media-query($on-mobile)
@@ -29,7 +29,7 @@
     font-weight: 300
     font-style: normal
     font-size: 2em
-    margin: 2em 0 0
+    margin: $spacing-unit*2 0 0
 
     @include media-query($on-mobile)
         margin: 1em 0
@@ -37,7 +37,7 @@
 
 .post-meta
     text-align: center
-    margin: 0 0 $spacing-unit*3
+    margin: 0 0 $spacing-unit*2
     font-size: 0.9em
 
     @include media-query($on-mobile)
@@ -111,9 +111,12 @@ hr
     top: -4px
 
 // .post-author -----------
+.post-footer
+    margin: $spacing-unit*2 0
+
 .post-author
     border-top: 1px solid $gray
-    padding: $spacing-unit 0
+    padding: $spacing-unit/2 0
 
 .post-author-img
     border-radius: 50%

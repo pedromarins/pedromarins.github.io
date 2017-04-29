@@ -3,23 +3,29 @@
     <input type="checkbox" id="checkbox" class="checkbox" checked>
 
     <ul class="header--list">
+        {% if include.template == "index" %}
         <li class="header--item">
             <a href="/" class="header--link">Home</a>
         </li>
+        {% else %}
+        <li class="header--item">
+            <a href="/" class="header--link header--home">Pedro Marins</a>
+        </li>
+        {% endif %}
+
         <li class="header--item">
             <a href="/about" class="header--link">Sobre</a>
         </li>
         <li class="header--item">
             <a href="/blog" class="header--link">Blog</a>
         </li>
-        <li class="header--item">
+        <!--<li class="header--item">
             <a href="/blog" class="header--link">Podcast</a>
-        </li>
+        </li>-->
         <li class="header--item">
             <a href="/blog" class="header--link">Livros</a>
         </li>
     </ul>
 
     <a href="/newsletter" class="header--item-newsletter">Assine a Newsletter</a>
-    
 </nav>

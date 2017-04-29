@@ -41,15 +41,10 @@ layout: default
   </article>
 
   <footer class="post-footer">
-    <div class="post-share">
-      <a href="https://twitter.com/share" class="post-share-twitter twitter-share-button" data-via="pedromarins" data-lang="pt" data-size="medium">Tweetar</a>
-
-      <div class="post-share-facebook fb-share-button" data-href="{{ page.url | prepend: site.baseurl }}" data-layout="button_count"></div>
-    </div>
-
     <div class="post-author">
       <img class="post-author-img" src="{{ site.url }}/assets/img/pedro-marins.jpg" alt="Pedro Marins">
       <h3 class="post-author-name">Pedro Marins</h3>
+
       <div class="post-author-follow">
         <a href="https://twitter.com/pedromarins" class="twitter-follow-button" data-show-count="false" data-lang="pt" data-size="large">Seguir @pedromarins</a>
       </div>
@@ -58,17 +53,3 @@ layout: default
 </div>
 
 {% include newsletter.html %}
-
-
-<!-- Twitter share and follow buttons -->
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
-<!-- Facebook share button -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=1437113109931486";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
