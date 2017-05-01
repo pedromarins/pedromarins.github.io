@@ -12,10 +12,10 @@ source:      .
 destination: ./_site
 plugins_dir: ./_plugins
 
-twitter_username: http://twitter.com/pedromarins
-github_username:  http://github.com/pedromarins
-facebook_username:  http://facebook.com/pedrolmarins
-linkedin_username:  http://linkedin.com/in/pedromarins
+twitter_url: http://twitter.com/pedromarins
+github_url:  http://github.com/pedromarins
+facebook_url:  http://facebook.com/pedrolmarins
+linkedin_url:  http://linkedin.com/in/pedromarins
 
 excerpt_separator: "<!--more-->"
 permalink: /blog/:title/
