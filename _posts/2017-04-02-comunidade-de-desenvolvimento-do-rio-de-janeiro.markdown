@@ -15,13 +15,21 @@ Quando organizo eventos, compartilho conhecimento ou crio projetos open source, 
 
 E tem mais uma coisa que sempre foi destaque para mim. Participar de uma comunidade de desenvolvimento, palestrando, trocar ideias, organizando eventos ou interagindo, me deu a oportunidade de conhecer outros modelos mentais, expandindo o meu. Grandes desenvolvedores tem modelos mentais incríveis. A forma como as pessoas que eu admiro apresentam ou resolvem um problema tem um grande potencial de abalar tudo o que eu penso. Em dezenas desses encontros tive que passar horas refletindo para poder absorver tudo que foi falado.
 
-Mas, umas das grandes dúvidas de quem está entrando no mundo do desenvolvimento é: por onde começar? Onde encontrar as pessoas, onde conhecer quem sabe mais para ter ajudar no processo de aprendizado, onde consultar para descobrir sobre novas tecnologias, quem seguir para ficar por dentro das novidades, onde compartilhar o que eu sei e o que estou aprendendo para contribuir com essa rede, etc. Já ouvi perguntas desse tipo dezenas de vezes nos cursos que dou ou em eventos que organizo.
+Mas umas das grandes dúvidas de quem está entrando no mundo do desenvolvimento é: por onde começar? Onde encontrar as pessoas, onde conhecer quem sabe mais para ter ajudar no processo de aprendizado, onde consultar para descobrir sobre novas tecnologias, quem seguir para ficar por dentro das novidades, onde compartilhar o que eu sei e o que estou aprendendo para contribuir com essa rede, etc. Já ouvi perguntas desse tipo dezenas de vezes nos cursos que dou ou em eventos que organizo.
 
-Para responder essas perguntas, criei esse **guia de comunidades de desenvolvimento** do Rio! Ai abaixo estão referências para grupos de desenvolvedores front-end, back-end, mobile, devops e CMS's. Comecei essa lista com as comunidades que conheco e frequento, ou já frequentei!
+Para responder essas perguntas, criei esse **guia de comunidades de desenvolvimento** do Rio! Ai abaixo estão referências para grupos de desenvolvedores front-end, back-end, mobile, devops e CMS's. Comecei essa lista com as comunidades que conheço e frequento, ou já frequentei!
 
 Se faltou algum na lista, me avisa lá no [twitter](http://twitter.com/pedromarins)! 
 
 Recomendo que você salve essa página nos seus favoritos. Vou atualizá-la constantemente, e você pode voltar periódicamente para ter certeza que não está perdendo nada.
+
+-------
+
+# Geral
+[devRj](http://bit.ly/devrj-panelinha) no Telegram
+
+[devbeers](http://www.meetup.com/pt-BR/devbeers-Rio-de-Janeiro/) no Meetup
+
 
 -------
 
@@ -104,9 +112,6 @@ Recomendo que você salve essa página nos seus favoritos. Vou atualizá-la cons
 
 [WBBrasil Rio de Janeiro](https://wpbrasil.slack.com/?redir=%2Fmessages%2Friodejaneiro%2F) no Slack
 
--------
 
-# Geral
-[devbeers](http://www.meetup.com/pt-BR/devbeers-Rio-de-Janeiro/) no Meetup
 
 
