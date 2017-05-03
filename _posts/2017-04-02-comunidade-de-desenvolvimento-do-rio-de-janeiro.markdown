@@ -11,7 +11,7 @@ published: true
 
 Deixa eu te contar uma coisa. Basicamente, tudo que tenho hoje na minha carreira profissional é devido à comunidade de desenvolvimento do Rio de Janeiro. As últimas oportunidades de emprego, a maioria dos projetos de consultoria, grande parte os projetos de freelancer, etc. Quanto mais me aproximo das comunidades, mais me beneficio. Sempre.
 
-Quando organizo eventos, compartilho conhecimento ou crio projetos open source, meu objetivo é cada vez mais aumentar essa rede ao máximo. Assim como eu me beneficio participando das comunidades, essa relação é mútua. O ganha-ganha é real. Então, aumentar e fortalecer essa rede só me trás benefícios, assim como trás benefícios para todo mundo que participa.
+Quando organizo eventos, compartilho conhecimento ou crio projetos open source, meu objetivo é cada vez mais aumentar essa rede ao máximo. Assim como eu me beneficio participando das comunidades, essa relação é mútua. O ganha-ganha é real. Então, aumentar e fortalecer essa rede só me traz benefícios, assim como traz benefícios para todo mundo que participa.
 
 E tem mais uma coisa que sempre foi destaque para mim. Participar de uma comunidade de desenvolvimento, palestrando, trocar ideias, organizando eventos ou interagindo, me deu a oportunidade de conhecer outros modelos mentais, expandindo o meu. Grandes desenvolvedores tem modelos mentais incríveis. A forma como as pessoas que eu admiro apresentam ou resolvem um problema tem um grande potencial de abalar tudo o que eu penso. Em dezenas desses encontros tive que passar horas refletindo para poder absorver tudo que foi falado.
 
@@ -49,6 +49,10 @@ Recomendo que você salve essa página nos seus favoritos. Vou atualizá-la cons
 # Back-end
 
 ### Python
+[PythonRio](http://pythonrio.python.org.br/) site
+
+[PythonRio](https://telegram.me/PythonRio) no Telegram
+
 [PythonRio](https://www.facebook.com/pythonrio) no Facebook
 
 [Python Rio](http://www.meetup.com/pt-BR/Python-Rio/) no Meetup
