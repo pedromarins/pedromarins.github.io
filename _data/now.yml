@@ -1,26 +1,27 @@
-- content: Melhorando minha saúde. Frequentando o Crossfit de segunda a sexta e me alimentando melhor seguindo o programa de jejum intermitente
-  type: life
-
-- content: Atualizando o material do curso sobre bitcoin
-  type: talk
-
-- content: Concluindo um MBA em Gestão de Conhecimento na COPPE/UFRJ
-  type: study
-
-- content: Lendo "The Bitcoin Standard" do Saifedean Ammous
-  type: book
-
-- content: Tocando o projeto da cripto.eco
-  type: job
-
-- content: Planejando produzir conteúdo diário de vídeo
+- content: Produzindo conteúdo diário de vídeo
   type: newsletter
 
 - content: Escrevendo um livro
   type: blog
 
+- content: Lendo: "The Bitcoin Standard" do Saifedean Ammous; "Guerra do Velho" do John Scalzi; e "As Brigadas Fantasmas" também do John Scalzi
+  type: book
+
+- content: Tocando eventos com a da cripto.eco
+  type: job
+
 - content: Organizando o meetup mensal do bitcoin em Niterói
   type: event
+
+- content: Membro da segunda turma do HUB NIT
+  type: study
+
+- content: Voltei a trabalhar no MPRJ!
+  type: job
+
+- content: Tentando voltar a praticar exercícios diários
+  type: life
+
 
 # blog
 # book
