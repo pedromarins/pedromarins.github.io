@@ -27,7 +27,7 @@ E os desafios, para mim, são vários. Preciso aprender a:
 * E ainda, aprender a **divulgar o conteúdo**. Já estudei muito sobre divulgação e marketing, para projetos anteriores, e gosto bastante do tema. Estou encarando isso mais como uma oportunidade de aplicar o que já estudei.
 
 Este é o primeiro episódio. Todos os pontos acima podem ser melhorados nesse primeiro vídeo! 
-<iframe width="700" height="400" src="https://www.youtube.com/embed/btiBd_TiSYg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/btiBd_TiSYg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Como venho da área de tecnologia, meu desejo é sempre otimizar ao máximo o que estou fazendo. Deixar o sistema o mais rápido e eficiente possível. É um detalhe a mais na minha forma de aprender, e minha vantagem.
 
