@@ -121,9 +121,6 @@ GEM
     jekyll-github-metadata (2.9.4)
       jekyll (~> 3.1)
       octokit (~> 4.0, != 4.4.0)
-    jekyll-livereload (0.2.2)
-      em-websocket (~> 0.5)
-      jekyll (~> 3.0)
     jekyll-mentions (1.4.0)
       html-pipeline (~> 2.3)
       jekyll (~> 3.0)
@@ -247,7 +244,6 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll
-  jekyll-livereload
 
 BUNDLED WITH
-   1.16.3
+   1.16.4

@@ -3,7 +3,7 @@ layout: post
 title: A comunidade de desenvolvimento do Rio de Janeiro
 subtitle: Um guia rápido de como se envolver com a comunidade de desenvolvedores carioca
 date: 2017-04-02 11:00:00 A comunidade de desenvolvimento do Rio de Janeiro
-categories: desenvolvimento comunnity
+categories: desenvolvimento community
 reading: 3 min
 author: Pedro Marins
 published: true

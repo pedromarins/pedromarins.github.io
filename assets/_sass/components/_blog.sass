@@ -1,3 +1,6 @@
+.post-image
+    max-width: 100%
+
 .post
     background: white
     max-width: 700px
@@ -15,7 +18,7 @@
     text-align: center
 
 .post-title
-    font-size: 4em
+    font-size: 3em
     font-weight: 700
     margin: $spacing-unit*2 0 0
     line-height: 1
@@ -27,7 +30,7 @@
 .post-subtitle
     font-weight: 300
     font-style: normal
-    font-size: 2em
+    font-size: 1.8em
     margin: $spacing-unit*2 0 0
 
     @include media-query($on-mobile)
@@ -48,14 +51,17 @@
         display: block
 
 .post-content
-    p
+    p,li
         margin-bottom: $spacing-unit
         word-wrap: break-word
-        font-size: 1.5em
+        font-size: 1.3em
         line-height: 1.5
 
         @include media-query($on-mobile)
             font-size: 1.3em
+
+    li
+        list-style: initial
 
     pre
         background: lighten($dark-blue, 10%)
