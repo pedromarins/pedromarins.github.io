@@ -8,7 +8,7 @@ reading: 5 min
 author: Pedro Marins
 img: /assets/img/posts/fiveminutejournal.jpg
 img-alt: Caderno
-published: true
+published: false
 ---
 
 Venho colecionando, ao longo dos anos, uma série de hábitos para me tornar melhor. Muitas dessas atividades são realizados diariamente, e aos poucos vão entrando na rotina e se solidificando como uma prática, como um hábito. Alguns desses se tornaram essenciais para mim, para o meu desenvolvimento pessoal. Vou agrupar o máximo que conseguir compartilhar em uma coleção de posts, e para essa coleção dou o nome **"Seja melhor de propósito"**.
