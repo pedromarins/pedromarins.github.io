@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve">
-<g>
-	<polygon fill="none" stroke="#D83A4E" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" points="32.2,10.8 
-		30.1,19 20.9,19 18.8,10.8 	"/>
-	<polyline fill="none" stroke="#D83A4E" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" points="20.9,22 
-		17.8,37.4 25,41.5 32.2,37.4 30.1,22 	"/>
-	
-		<line fill="none" stroke="#D83A4E" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" x1="21.9" y1="32.3" x2="28.1" y2="31.3"/>
-	
-		<line fill="none" stroke="#D83A4E" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" x1="21.9" y1="36.4" x2="28.1" y2="35.4"/>
-	
-		<line fill="none" stroke="#D83A4E" stroke-width="2" stroke-linejoin="round" stroke-miterlimit="10" x1="21.9" y1="28.2" x2="28.1" y2="27.2"/>
-</g>
-</svg>
+<svg enable-background="new 0 0 50 50" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#d83a4e" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"><path d="m32.2 10.8-2.1 8.2h-9.2l-2.1-8.2z"/><path d="m20.9 22-3.1 15.4 7.2 4.1 7.2-4.1-2.1-15.4"/><path d="m21.9 32.3 6.2-1"/><path d="m21.9 36.4 6.2-1"/><path d="m21.9 28.2 6.2-1"/></g></svg>

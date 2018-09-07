@@ -1,12 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="957 2832 18 20">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #dd4358;
-      }
-    </style>
-  </defs>
-  <g id="group-18" transform="translate(140 113)">
-    <path id="path" class="cls-1" d="M17,0H1A.945.945,0,0,0,0,1V19a.945.945,0,0,0,1,1H17a.945.945,0,0,0,1-1V1A.945.945,0,0,0,17,0ZM2,2H4V18H2ZM16,18H6V2H9v9l2.5-2L14,11V2h2Z" transform="translate(817 2719)"/>
-  </g>
-</svg>
+<svg viewBox="957 2832 18 20" xmlns="http://www.w3.org/2000/svg"><path d="m17 0h-16a.945.945 0 0 0 -1 1v18a.945.945 0 0 0 1 1h16a.945.945 0 0 0 1-1v-18a.945.945 0 0 0 -1-1zm-15 2h2v16h-2zm14 16h-10v-16h3v9l2.5-2 2.5 2v-9h2z" fill="#dd4358" transform="translate(957 2832)"/></svg>
