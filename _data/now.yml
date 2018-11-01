@@ -1,25 +1,25 @@
-- content: Produzindo conteúdo de vídeo para o Youtube
-  type: newsletter
-
-- content: Voltando a escrever com regularidade
+- content: Rotina diária de escrita
   type: blog
-
-- content: Lendo "Projeto Startup" do amigo João Magalhães
-  type: book
-
-- content: Curso de Lógica de Programação na Caelum
-  type: job
-
-- content: Organizando o meetup mensal do bitcoin em Niterói
-  type: event
-
-- content: Membro da segunda turma do HUB NIT
-  type: study
 
 - content: Ajudando pessoas a investirem em criptomoedas
   type: job
 
-- content: Tentando voltar a praticar exercícios diários
+- content: Montando um curso sobre a revolução do blockchain
+  type: job
+
+- content: Organizando o meetup mensal sobre bitcoin em Niterói e no Rio
+  type: event
+
+- content: Produzindo conteúdo de vídeo para o Youtube
+  type: newsletter
+
+- content: Lendo a série Mistborn - segunda era - do fabuloso Brandon Sanderson
+  type: book
+
+- content: Membro da segunda turma do HUB NIT
+  type: study
+
+- content: Mantendo uma rotina diária de exercícios e melhoramentos
   type: life
 
 
