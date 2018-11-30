@@ -18,7 +18,7 @@ Particularmente, classifico as minhas palestras mais recentes como boas e as mai
 
 **1. Não seja desorganizado**
 
-Toda palestra tem que ter um objetivo. E independente de qual for, este precisa estar muito claro para os participantes. E uma das piores coisas ao assistir a uma palestra é chegar ao meio dela sem saber o que está sendo falado e não ter clareza sobre onde o palestrante que chegar. Fica muito claro que a apresentação não foi montada com um objetivo, mas sim com um emaranhado de ideias desconexas. Antes de montar uma apresentação é preciso definir o que você quer que o seu público sinta, o que você quer que ele aprenda, o que você quer que ele faça. Se o palestrante não tem clareza sobre isso, como o público terá?
+Toda palestra tem que ter um objetivo. E independente de qual for, este precisa estar muito claro para os participantes. E uma das piores coisas ao assistir a uma palestra é chegar ao meio dela sem saber o que está sendo falado e não ter clareza sobre onde o palestrante quer chegar. Fica muito claro que a apresentação não foi montada com um objetivo, mas sim com um emaranhado de ideias desconexas. Antes de montar uma apresentação é preciso definir o que você quer que o seu público sinta, o que você quer que ele aprenda, o que você quer que ele faça. Se o palestrante não tem clareza sobre isso, como o público terá?
 
 **2. Você não é o conteúdo**
 
