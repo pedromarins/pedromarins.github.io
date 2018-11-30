@@ -6,7 +6,7 @@ date: 2018-11-30 13:00:00 O que não fazer em uma palestra
 categories: evolução aprendizado otimização palestra evento
 reading: 5 min
 author: Pedro Marins
-img: /assets/img/posts/fiveminutejournal.jpg
+img: /assets/img/posts/speaker.jpg
 img-alt: Caderno
 published: true
 ---
