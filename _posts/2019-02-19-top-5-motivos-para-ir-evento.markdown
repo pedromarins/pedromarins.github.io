@@ -2,7 +2,7 @@
 layout: post
 title: Top 5 motivos para ir a um evento
 subtitle: A análise que eu faço para julgar se um evento vale minha presença
-date: 2019-02-20 13:00:00 Top 5 motivos para ir a um evento
+date: 2019-02-22 13:00:00 Top 5 motivos para ir a um evento
 categories: evolução aprendizado otimização palestra evento
 reading: 7 min
 author: Pedro Marins
@@ -38,13 +38,13 @@ Existe no mercado uma categoria de pessoas chamadas “palestrantes profissionai
 
 Eu prefiro estar em eventos em que os palestrantes ganham a vida botando em prática o tema que estão compartilhando, ao invés de ganhar a vida falando sobre tudo. Um evento em que os palestrantes também são participantes vai sempre ter um conteúdo mais rico e mais aplicável na nossa vida e trabalho. E com esse tipo de conteúdo, é fato que os palestrantes também vão querer participar do evento em sua totalidade. Não só chegar, dar a sua palestra e ir embora. Eles vão também participar do networking e das atividades.
 
-## 4: O evento é sobre ação, ou inspiração?
+## 4: O evento é sobre ação ou inspiração?
 Muitos eventos inserem nas suas grades uma palestra que seja “inspiradora”. Geralmente alguém que ultrapassou alguma dificuldade e agora tem sucesso naquele mercado. Não tenho nada contra esse tipo de conteúdo, mas acho que existem momentos melhores para isso.
 
-Se é um evento técnico, prefiro estar lá consumindo só conteúdo técnico. Deixar as palestras motivacionais e inspiradoras para os eventos onde esse é o foco. E participo bastante de eventos onde o foco é motivação, mas acho que existe uma separação muito clara nos tipos de conteúdo, e não gosto tanto quando elas se misturam.
+Se é um evento técnico, prefiro estar lá consumindo só conteúdo técnico. Deixar as palestras motivacionais e inspiradoras para os eventos onde esse seja o foco. Eu participo bastante de eventos onde o foco é motivação, mas acho que existe uma separação muito clara nos tipos de conteúdo e não gosto tanto quando elas se misturam.
 
 ## 5: O evento proporciona o networking?
-E nesse tópico, não estou falando somente de eventos que fazem dinâmicas forçadas de networking. As dinâmicas que incentivam networking são muito legais, em determinados momentos. Mas além das dinâmicas, para mim é importante que a organização tenha separado um espaço exclusivo para a troca de ideias. Não só a área de palestras e acabou.
+E nesse tópico não estou falando somente de eventos que fazem dinâmicas forçadas de networking. As dinâmicas que incentivam networking são muito legais, em determinados momentos. Mas além das dinâmicas, para mim é importante que a organização tenha separado um espaço exclusivo para a troca de ideias. Não só a área de palestras e acabou.
 
 Também é relevante quando a organização programa momentos de networking durante a grade, geralmente na abertura ou encerramento do evento. São boas oportunidades onde todos tem o mesmo objetivo. Diferente do momento de coffee-break onde alguns querem focar só em comer.
 
@@ -52,8 +52,8 @@ Um dos pontos que são fáceis de errar também é o tamanho e layout do crachá
 
 ## Eventos que eu recomendo até o momento:
 
-Se você está envolvido com o mundo de criptomoedas, no dia 23 de março vai acontecer um evento no Rio de Janeiro que atende todos esses critérios. (Mas como é um evento que eu estou organizando, isso não deveria ser uma surpresa!) Teremos palestrantes fantásticos, a primeira premiação dos melhores do mundo de criptomoedas no Brasil, e você pode adquirir seu ingresso com desconto através de desse *link*!
+Se você está envolvido com o mundo de criptomoedas, no dia 23 de março vai acontecer um evento no Rio de Janeiro que atende todos esses critérios. (Mas como é um evento que eu estou organizando, isso não deveria ser uma surpresa!) Teremos palestrantes fantásticos, a primeira premiação dos melhores do mundo de criptomoedas no Brasil e você pode adquirir seu ingresso com desconto através de desse *link*!
 
-Eu também gosto muito de eventos só para trocar informações, sem grade definida. Um evento que junte as pessoas do mercado para somar e compartilhar conteúdo. Se você é do Rio de Janeiro, ou Niterói, recomendo que participe do grupo da cripto.rio no meetup. São dois encontros por mês, um em cada cidade, de pessoas que estão **fazendo** as coisas acontecerem nesse mercado.
+Eu também gosto muito de eventos só para trocar informações, sem grade definida. Um evento que junte as pessoas do mercado para somar e compartilhar conteúdo. Se você é do Rio de Janeiro ou Niterói, recomendo que participe do grupo da cripto.rio no meetup. São dois encontros por mês, um em cada cidade, de pessoas que estão **fazendo** as coisas acontecerem nesse mercado.
 
-Esse é o tipo de evento que eu vou participar! São eventos pequenos, com conteúdo altamente selecionado, com as pessoas que movem o mercado. Ao longo do ano também vou divulgando outros eventos que vou participar. Me segue lá no Instagram para saber em primeira mão os melhores eventos, com o melhor conteúdo, que eu vou participar nesse ano. 
+Esse é o tipo de evento que eu vou participar! São eventos pequenos, com conteúdo altamente selecionado, com as pessoas que movem o mercado. Ao longo do ano também vou divulgando outros eventos interessantes. Me segue lá no *Instagram* para saber em primeira mão os melhores eventos, com o melhor conteúdo, que eu vou participar nesse ano. 

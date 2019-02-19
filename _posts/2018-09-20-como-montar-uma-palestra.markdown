@@ -8,7 +8,7 @@ reading: 4 min
 author: Pedro Marins
 img: /assets/img/posts/fiveminutejournal.jpg
 img-alt: Caderno
-published: true
+published: false
 ---
 
 Montar um palestra já foi uma tarefa difícil para mim. Muito difícil. Saber o que falar, como montar um conteúdo, como montar os slides, e como organizar isso tudo eram tarefas que me consumiam muito. Mas depois de dar mais de 15 palestras, que você pode conferir na minha bio, tive que criar um método para isso. E o meu método se baseia em 3 etapas. 
