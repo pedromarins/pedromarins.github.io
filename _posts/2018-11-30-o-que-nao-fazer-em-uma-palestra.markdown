@@ -8,7 +8,7 @@ reading: 5 min
 author: Pedro Marins
 img: /assets/img/posts/speaker.jpg
 img-alt: Caderno
-published: true
+published: false
 ---
 
 Recentemente participei de um evento no qual uma das palestras foi sofrível. Em um nível inacreditável. E como vou a muitos eventos, já assisti mais de uma centena de apresentações e já palestrei mais de 20 vezes, percebi e fui catalogando alguns **pequenos detalhes** que podem destruir uma apresentação. Geralmente esses erros são cometidos nos primeiros 5 min da apresentação e definem o sabor amargo que vai ser aguentar o resto daquela fala.
