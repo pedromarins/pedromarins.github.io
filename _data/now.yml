@@ -1,25 +1,25 @@
+- content: Criando meu primeiro curso online
+  type: project
+
+- content: Organizando o maior evento de criptomedas do Rio de Janeiro
+  type: event
+
+- content: Criando cursos para a Alura
+  type: course
+
 - content: Tentando criar uma rotina diária de escrita
-  type: blog
+  type: book
 
 - content: Mentor no HUB NIT
   type: study
 
-- content: Tendo insights lendo o Geração de Valor do Flavio Augusto
-  type: book
-
 - content: Ajudando pessoas a investirem em criptomoedas
   type: job
 
-- content: Curso presencial de Javascript na Caelum
-  type: job
-
-- content: Organizando o meetup mensal sobre bitcoin em Niterói e no Rio
-  type: event
-
-- content: Me preparando para produzir conteúdo de vídeo para o Youtube
+- content: Criando conteúdo semanalmente para o blog
   type: newsletter
 
-- content: Mantendo uma rotina diária de exercícios e dieta
+- content: Mantendo uma rotina diária de exercícios com crossfit e canoa havaiana
   type: life
 
 
