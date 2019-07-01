@@ -1,23 +1,23 @@
-- content: Focado no projeto do Vacina+
-  type: project
-
-- content: Produzindo insights para times de basquete
+- content: Desenvolvendo projetos pela Game Change
   type: project
 
 - content: Criando cursos para a Alura
   type: course
 
-- content: Tentando criar uma rotina diária de escrita
-  type: book
+- content: Produzindo insights para times de basquete
+  type: project
 
-- content: Mentor no HUB NIT
-  type: study
+- content: Escrevendo diáriamente para publicar meu livro
+  type: book
 
 - content: Ajudando pessoas a investirem em criptomoedas
   type: job
 
-- content: Criando conteúdo para o blog
-  type: newsletter
+- content: Gerando negócios no BNI Fiduciam
+  type: event
+
+- content: Mentor no BNDES Garagem
+  type: talk
 
 - content: Mantendo uma rotina diária de exercícios com crossfit e canoa havaiana
   type: life
