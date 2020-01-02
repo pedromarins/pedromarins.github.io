@@ -1,13 +1,10 @@
-- content: Criando Negócios Inovadores pela Sparkit
+- content: Criando negócios inovadores pela toorin
   type: project
 
 - content: Criando cursos para a Alura
   type: course
 
-- content: Ajudando advogados cariocas a pararem de perder tempo
-  type: project
-
-- content: Ajudando empresas a se prepararem para a LGPD
+- content: Ajudando advogados cariocas com o <a href="http://processointegral.com">Processo Integral</a>
   type: project
 
 - content: Compartilhando conteúdo no meu <a href="http://instagram.com/opedromarins">Instagram</a>
@@ -16,10 +13,13 @@
 - content: Estudando sobre Legal Design
   type: course
 
+- content: Gravando curso sobre Direito Inovador
+  type: course
+
 - content: Gerando negócios no BNI Fiduciam
   type: event
 
-- content: Mantendo uma rotina diária de exercícios com crossfit e yoga
+- content: Mantendo uma rotina diária de exercícios e alimentação
   type: life
 
 # blog
