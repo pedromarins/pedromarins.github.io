@@ -13,7 +13,7 @@ published: true
 
 Eu gosto muito de conversar sobre **ideias**. Especialmente entender a linha de raciocínio das pessoas por trás das suas ações. Entrar na mente das pessoas para aprender mais sobre elas - seus hábitos, estudos e ideias.
 
-Por isso gosto tanto de ler bibliografias. É a forma mais simples e barata de entender a mente de uma pessoa. Seu processo de tomada de decisão. 
+Por isso gosto tanto de ler biografias. É a forma mais simples e barata de entender a mente de uma pessoa. Seu processo de tomada de decisão. 
 
 Mas e se as pessoas que você admira e gosta de conversar não tem uma biografia escrita? Minha solução é convidar para o bar, tomar uma cerveja e deixar o papo fluir. Sempre fiz isso e levo para casa bons insights conversando com pessoas mais inteligentes que eu. 
 
