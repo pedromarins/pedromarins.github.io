@@ -1,6 +1,9 @@
 - content: Criando negócios inovadores pela toorin
   type: project
 
+- content: Compartilhando conteúdo no meu <a href="http://instagram.com/opedromarins">Instagram</a>
+  type: newsletter
+
 - content: Fazendo um programa semanal chamado `#happyhourremoto` com o <a href="http://henriquedeandrade.com.br">Henrique de Andrade</a>
   type: course
 
@@ -9,9 +12,6 @@
 
 - content: Ajudando advogados cariocas com o <a href="http://processointegral.com">Processo Integral</a>
   type: project
-
-- content: Compartilhando conteúdo no meu <a href="http://instagram.com/opedromarins">Instagram</a>
-  type: newsletter
 
 - content: Dando aula no MBA do IBMEC
   type: book
