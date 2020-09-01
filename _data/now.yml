@@ -10,10 +10,10 @@
 - content: Lançando um curso incrível chamado <a href="http://direitoinovador.com.br">Direito Inovador</a>
   type: course
 
-- content: Ajudando advogados cariocas com o <a href="http://processointegral.com">Processo Integral</a>
-  type: project
-
 - content: Dando aula no MBA do IBMEC
+  type: book
+
+- content: Dando aula de tecnologia na Alura
   type: book
 
 - content: Gerando negócios no BNI Fiduciam
