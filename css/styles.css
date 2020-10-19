@@ -574,3 +574,10 @@ input[type='checkbox'] {
 }
 
 /* 378 */
+
+
+@media (min-width: 1200px) {
+    .presentation {
+        background: red;
+    }
+}
