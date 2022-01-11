@@ -12,7 +12,7 @@ source:      .
 destination: ./_site
 plugins_dir: ./_plugins
 
-twitter_url: http://twitter.com/pedromarins
+instagram_url: http://instagram.com/opedromarins
 github_url:  http://github.com/pedromarins
 facebook_url:  http://facebook.com/pedrolmarins
 linkedin_url:  http://linkedin.com/in/pedromarins
