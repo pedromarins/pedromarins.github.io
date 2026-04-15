@@ -1,50 +1,10 @@
----
-layout: index
-alias: home
-title: Home
----
-
-<header class="presentation"></header>
-
-{% include header.html template="index" %}
-
-<section class="home-about">
-	<h2 class="home-about--title">Oi!</h2>
-	<p class="home-about--texto">Meu nome é <strong>Pedro Marins</strong>. Hoje me apresento como Criador de Negócios Inovadores, tenho 33 anos e moro em Niterói no Rio de Janeiro. Já morei em San Diego, na Califórnia também.</p>
-	<a class="home-about--button" href="/about">Saiba mais sobre mim</a>
-</section>
-
-<section class="headlines">
-	<h1 class="headlines-title">Meu Blog</h1>
-	<p class="headlines-text">Reflexões sobre a vida de empreendedor, desenvolvedor e todo o resto que eu faço. <br> Com outras aleatoriedades sobre as quais eu tenho algo para falar.</p>
-
-	<ul class="headlines-list">
-		{% for post in site.posts %}
-		<li class="headlines-list-item">
-			<a class="headlines-list-link" href="{{ post.url | prepend: site.url }}">
-				<h2 class="headlines-list-title">{{ post.title }}</h2>
-				<span class="headlines-list-meta">{{ post.date | date: "%B %Y" }}</span>
-				<button class="headlines-list-button">Leia o artigo completo</button>
-			</a>
-		</li>
-		{% endfor %}
-	</ul>
-
-	<a href="/blog/" class="headlines-archive"><span>Veja todos os artigos</span></a>
-</section>
-
-<section class="now">
-	<h2 class="now-title">Now</h2>
-	<p class="now-text">Aqui vou listar o que estou fazendo agora, neste mês: <br> Última atualização em 1 de dezembro de 2020.</p>
-	<ul class="now-list">
-		<h3 class="now-list--title">No que estou focado agora:</h3>
-		{% for now in site.data.now %}
-		
-		<li class="now-list--item">
-			<p class="now-list--text now-list--{{ now.type }}">{{ now.content }}</p>	
-		</li>
-		{% endfor %}
-	</ul>
-</section>
-
-{% include newsletter.html %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Marins</title>
+</head>
+<body>
+</body>
+</html>
